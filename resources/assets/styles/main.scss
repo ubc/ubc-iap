@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Whitney Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Medium"), url("../fonts/whitney/whitneymedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Medium Italic"), url("../fonts/whitney/whitneymediumitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Bold"), url("../fonts/whitney/whitneybold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Semibold Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Semibold Regular"), url("../fonts/whitney/whitneysemibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Book Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Book Regular"), url("../fonts/whitney/whitneybook.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Light Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Light Regular"), url("../fonts/whitney/whitneylight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Semibold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Semibold Italic"), url("../fonts/whitney/WhitneySemiboldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Book Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Book Italic"), url("../fonts/whitney/whitneybookitalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Whitney Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Whitney Light Italic"), url("../fonts/whitney/whitneylightitalic.woff") format("woff");
+}
+
+@import "common/variables";
+
+/** Import everything from autoload */
+#bootstrap_iso {
+  margin: 0 -20px;
+  overflow: hidden;
+
+  @media (min-width: 980px) {
+    margin: 0;
+  }
+
+  @import "./autoload/**/*";
+
+  /**
+   * Import npm dependencies
+   *
+   * Prefix your imports with `~` to grab from node_modules/
+   * @see https://github.com/webpack-contrib/sass-loader#imports
+   */
+  // @import "~some-node-module";
+
+  /** Import theme styles */
+  @import "common/global";
+  @import "components/buttons";
+  @import "components/comments";
+  @import "components/forms";
+  @import "components/wp-classes";
+  @import "layouts/header";
+  @import "layouts/sidebar";
+  @import "layouts/footer";
+  @import "layouts/pages";
+  @import "layouts/posts";
+  @import "layouts/tinymce";
+}
+
+.page-template-default:not(.home),
+.page-template-template-foundations,
+.page-template-template-the-engagement-process,
+.page-template-template-guiding-network {
+  .pre-footer::before {
+    background-image: url("../images/curve-03.svg") !important;
+  }
+}
+
+.single-post {
+  .full-width-container {
+    background: white;
+    margin: 0 -15px !important;
+    padding: 0 15px !important;
+
+    @media (min-width: 768px) {
+      margin: 0 -20px !important;
+      padding: 0 20px !important;
+    }
+
+    @media (min-width: 980px) {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  #container {
+    margin: 0 auto;
+    padding: 1rem 0;
+    max-width: 940px;
+
+    @media (min-width: 1200px) {
+      max-width: 1170px;
+    }
+  }
+}
