@@ -13566,9 +13566,7 @@
 
 /* line 125, stdin */
 .single-post #container {
-  margin: 0 auto;
-  padding: 1rem 0;
-  max-width: 940px; }
+  margin: 0 auto; }
   @media (min-width: 1200px) {
     /* line 125, stdin */
     .single-post #container {
