@@ -13564,12 +13564,4 @@
       margin: 0 !important;
       padding: 0 !important; } }
 
-/* line 125, stdin */
-.single-post #container {
-  margin: 0 auto; }
-  @media (min-width: 1200px) {
-    /* line 125, stdin */
-    .single-post #container {
-      max-width: 1170px; } }
-
 /*# sourceMappingURL=main.css.map*/
