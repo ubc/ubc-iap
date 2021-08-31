@@ -13564,4 +13564,16 @@
       margin: 0 !important;
       padding: 0 !important; } }
 
+/* line 125, stdin */
+.single-post #bootstrap_iso h1 {
+  font-size: 40px; }
+  @media (min-width: 768px) {
+    /* line 125, stdin */
+    .single-post #bootstrap_iso h1 {
+      font-size: 50px; } }
+  @media (min-width: 992px) {
+    /* line 125, stdin */
+    .single-post #bootstrap_iso h1 {
+      font-size: 70px; } }
+
 /*# sourceMappingURL=main.css.map*/
