@@ -1,3 +1,4 @@
+/* Main.css */
 @font-face {
   font-family: "Whitney Medium";
   font-style: normal;
@@ -55,10 +56,11 @@
 /** Import Bootstrap functions */
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 /** Import everything from autoload */
-/* line 67, stdin */
+/* line 68, stdin */
 #bootstrap_iso {
   margin: 0 -20px;
   overflow: hidden;
+  background-color: white;
   /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -72,6 +74,8 @@
    * @see https://github.com/webpack-contrib/sass-loader#imports
    */
   /** Import theme styles */
+  /* Buttons */
+  /* Comments */
   /** Search form */
   /**
  * WordPress Generated Classes
@@ -79,9 +83,17 @@
  */
   /** Media alignment */
   /** Captions */
-  /** Text meant only for screen readers */ }
+  /** Text meant only for screen readers */
+  /* Header */
+  /* Sidebar */
+  /* Footer */
+  /* Homepage */
+  /* News Section */
+  /* Foundations and Guiding Network Pages */
+  /* Posts */
+  /* TinyMCE */ }
   @media (min-width: 980px) {
-    /* line 67, stdin */
+    /* line 68, stdin */
     #bootstrap_iso {
       margin: 0; } }
   /* line 1, node_modules/bootstrap/scss/_root.scss */
@@ -12163,7 +12175,7 @@
     #bootstrap_iso h3 {
       page-break-after: avoid; }
     @page {
-      /* line 67, stdin */
+      /* line 68, stdin */
       #bootstrap_iso {
         size: a3; } }
     /* line 92, node_modules/bootstrap/scss/_print.scss */
@@ -13506,7 +13518,7 @@
         left: 0;
         transform: rotateZ(-90deg) translate(-50%);
         transform-origin: top left; } }
-  /* line 5, resources/assets/styles/components/_comments.scss */
+  /* line 6, resources/assets/styles/components/_comments.scss */
   #bootstrap_iso .comment-list ol {
     list-style: none; }
   /* line 6, resources/assets/styles/components/_forms.scss */
@@ -13537,42 +13549,76 @@
     #bootstrap_iso .alignright {
       float: right;
       margin-left: 7.5px; } }
-  /* line 1, resources/assets/styles/layouts/_tinymce.scss */
+  /* line 2, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .bg-lightblue {
+    background-color: #d6dfe7; }
+  /* line 7, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .section-news h3 a.news-link {
+    text-decoration: none; }
+  /* line 12, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .bg-foundations {
+    background-size: cover; }
+  /* line 16, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .text-burnt ul,
+  #bootstrap_iso .text-burnt p,
+  #bootstrap_iso .text-burnt h3,
+  #bootstrap_iso h2.text-burnt,
+  #bootstrap_iso h3.text-burnt {
+    color: #481700; }
+  /* line 24, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .img-rounded--image {
+    border-color: #dacab5; }
+  /* line 28, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .line-right-reduced::before,
+  #bootstrap_iso .line-diagonal-right::before,
+  #bootstrap_iso .line-diagonal-left::before,
+  #bootstrap_iso .line-horizontal-right::before,
+  #bootstrap_iso .line-horizontal-left::before {
+    background: #dacab5; }
+  /* line 36, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .line-right-reduced::before,
+  #bootstrap_iso .line-right {
+    border-color: #dacab5; }
+  /* line 41, resources/assets/styles/layouts/_pages.scss */
+  #bootstrap_iso .img-rounded--text.burnt {
+    background: rgba(255, 255, 255, 0.75);
+    border: 12px solid #dacab5; }
+  /* line 3, resources/assets/styles/layouts/_tinymce.scss */
   #bootstrap_iso body#tinymce {
     margin: 12px !important; }
 
-/* line 103, stdin */
+/* line 105, stdin */
 .page-template-default:not(.home) .pre-footer::before,
 .page-template-template-foundations .pre-footer::before,
 .page-template-template-the-engagement-process .pre-footer::before,
 .page-template-template-guiding-network .pre-footer::before {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOTIwIDBMMTkyMCAxNy45OTk5QzE4MjYuMTIgOC40OTk5NSAxNDkyLjA4IC00LjgwMDA1IDkwNi45NzIgMTcuOTk5OUMzMjEuODY4IDQwLjc5OTkgNTguNTMwNSAxMjAuMTY3IDAgMTU3VjBIMTkyMFoiIGZpbGw9IiNGMEU5REUiLz4KPC9zdmc+Cg==) !important; }
 
-/* line 109, stdin */
+/* line 111, stdin */
 .single-post .full-width-container {
   background: white;
   margin: 0 -15px !important;
   padding: 0 15px !important; }
   @media (min-width: 768px) {
-    /* line 109, stdin */
+    /* line 111, stdin */
     .single-post .full-width-container {
       margin: 0 -20px !important;
       padding: 0 20px !important; } }
   @media (min-width: 980px) {
-    /* line 109, stdin */
+    /* line 111, stdin */
     .single-post .full-width-container {
       margin: 0 !important;
       padding: 0 !important; } }
 
-/* line 125, stdin */
+/* line 127, stdin */
 .single-post #bootstrap_iso h1 {
   font-size: 40px; }
   @media (min-width: 768px) {
-    /* line 125, stdin */
+    /* line 127, stdin */
     .single-post #bootstrap_iso h1 {
       font-size: 50px; } }
   @media (min-width: 992px) {
-    /* line 125, stdin */
+    /* line 127, stdin */
     .single-post #bootstrap_iso h1 {
       font-size: 70px; } }
 

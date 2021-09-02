@@ -1,3 +1,4 @@
+/* Main.css */
 @font-face {
   font-family: "Whitney Medium";
   font-style: normal;
@@ -67,6 +68,7 @@
 #bootstrap_iso {
   margin: 0 -20px;
   overflow: hidden;
+  background-color: white;
 
   @media (min-width: 980px) {
     margin: 0;

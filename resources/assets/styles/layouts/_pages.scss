@@ -1,0 +1,44 @@
+/* Homepage */
+.bg-lightblue {
+  background-color: $lightblue;
+}
+
+/* News Section */
+.section-news h3 a.news-link {
+  text-decoration: none;
+}
+
+/* Foundations and Guiding Network Pages */
+.bg-foundations {
+  background-size: cover;
+}
+
+.text-burnt ul,
+.text-burnt p,
+.text-burnt h3,
+h2.text-burnt,
+h3.text-burnt {
+  color: $burnt;
+}
+
+.img-rounded--image {
+  border-color: $darkbeige;
+}
+
+.line-right-reduced::before,
+.line-diagonal-right::before,
+.line-diagonal-left::before,
+.line-horizontal-right::before,
+.line-horizontal-left::before {
+  background: $darkbeige;
+}
+
+.line-right-reduced::before,
+.line-right {
+  border-color: $darkbeige;
+}
+
+.img-rounded--text.burnt {
+  background: rgba(255, 255, 255, 0.75);
+  border: 12px solid $darkbeige;
+}
