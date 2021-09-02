@@ -23,51 +23,14 @@ get_header(); // Loads the header.php template.
     )) ?>
 
     <?php echo get_template_part('partials/section' , 'right', [
-        'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_1_background_image' ), 'header'),
-        'image_circular_id' => carbon_get_the_post_meta( 'crb_section_1_circular_image' ),
         'heading'           => carbon_get_the_post_meta( 'crb_section_1_heading' ),
         'content'           => carbon_get_the_post_meta( 'crb_section_1_content' ),
         'links'             => [],
     ]) ?>
 
-    <?php // echo get_template_part('partials/section', 'left', [
-        // 'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_2_background_image' ), 'header'),
-        // 'image_circular_id' => carbon_get_the_post_meta( 'crb_section_2_circular_image' ),
-        // 'heading'           => carbon_get_the_post_meta( 'crb_section_2_heading' ),
-        // 'content'           => carbon_get_the_post_meta( 'crb_section_2_content' ),
-        // 'columns'           => 2,
-        // 'links'             => [],
-    // ]) ?>
 
-    <?php echo get_template_part('partials/section' , 'right', [
-        'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_3_background_image' ), 'header'),
-        'image_circular_id' => carbon_get_the_post_meta( 'crb_section_3_circular_image' ),
-        'heading'           => carbon_get_the_post_meta( 'crb_section_3_heading' ),
-        'links'             => carbon_get_the_post_meta( 'crb_section_3_links' ),
-    ]) ?>
+    <?php echo get_template_part('partials/section-news') ?>
 
-    <?php // echo get_template_part('partials/section', 'left', [
-        // 'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_4_background_image' ), 'header'),
-        // 'image_circular_id' => carbon_get_the_post_meta( 'crb_section_4_circular_image' ),
-        // 'heading'           => carbon_get_the_post_meta( 'crb_section_4_heading' ),
-        // 'content'           => carbon_get_the_post_meta( 'crb_section_4_content' ),
-        // 'links'             => [],
-    // ]) ?>
-
-    <?php echo get_template_part('partials/section' , 'right', [
-        'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_5_background_image' ), 'header'),
-        'image_circular_id' => carbon_get_the_post_meta( 'crb_section_5_circular_image' ),
-        'heading'           => carbon_get_the_post_meta( 'crb_section_5_heading' ),
-        'links'             => carbon_get_the_post_meta( 'crb_section_5_links' ),
-    ]) ?>
-
-    <?php // echo get_template_part('partials/section', 'left', [
-        // 'image_background'  => wp_get_attachment_image_url(carbon_get_the_post_meta( 'crb_section_6_background_image' ), 'header'),
-        // 'image_circular_id' => carbon_get_the_post_meta( 'crb_section_6_circular_image' ),
-        // 'heading'           => carbon_get_the_post_meta( 'crb_section_6_heading' ),
-        // 'content'           => carbon_get_the_post_meta( 'crb_section_6_content' ),
-        // 'links'             => [],
-    // ]) ?>
 
     <?php echo get_template_part('partials/pre-footer') ?>
 

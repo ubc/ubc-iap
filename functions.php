@@ -17,8 +17,6 @@ require_once 'vendor/autoload.php';
 use Carbon_Fields\Container as CarbonContainer;
 use Carbon_Fields\Field;
 
-define( 'IAP_THEME_VERSION', '1.2' );
-
 /**
  * Creates a back-end field section.
  *
@@ -39,8 +37,8 @@ function crb_create_section($label, $handle_prefix)
         ->where('post_id', '=', get_option('page_on_front'))
         ->add_fields(
             array(
-                Field::make('image', $handle_prefix . '_background_image'),
-                Field::make('image', $handle_prefix . '_circular_image'),
+                //Field::make('image', $handle_prefix . '_background_image'),
+                //Field::make('image', $handle_prefix . '_circular_image'),
                 Field::make('text', $handle_prefix . '_heading'),
                 Field::make('rich_text', $handle_prefix . '_content'),
             )
@@ -114,11 +112,11 @@ function crb_attach_theme_options()
         );
 
     crb_create_section('Section 1', 'crb_section_1');
-    crb_create_section('Section 2', 'crb_section_2');
-    crb_create_section_with_links('Section 3', 'crb_section_3');
-    crb_create_section('Section 4', 'crb_section_4');
-    crb_create_section_with_links('Section 5', 'crb_section_5');
-    crb_create_section('Section 6', 'crb_section_6');
+    //crb_create_section('Section 2', 'crb_section_2');
+    //crb_create_section_with_links('Section 3', 'crb_section_3');
+    //crb_create_section('Section 4', 'crb_section_4');
+    //crb_create_section_with_links('Section 5', 'crb_section_5');
+    //crb_create_section('Section 6', 'crb_section_6');
 
 
     // Foundations
@@ -135,6 +133,7 @@ function crb_attach_theme_options()
         ->where('post_template', '=', 'template-foundations.php')
         ->add_fields(
             array(
+                Field::make('image', 'crb_bubble_background_image'),
                 Field::make('rich_text', 'crb_section_1_content_1'),
                 Field::make('text', 'crb_section_1_bubble_1_heading')->set_width(50),
                 Field::make('text', 'crb_section_1_bubble_1_content')->set_width(50),
@@ -336,8 +335,8 @@ add_action('after_setup_theme', 'ubc_iap_load');
 add_action(
     'wp_enqueue_scripts', 
     function () {
-        wp_enqueue_style('sage/main.css', get_stylesheet_directory_uri().('/dist/styles/main.css'), false, IAP_THEME_VERSION);
-        wp_enqueue_script('sage/main.js', get_stylesheet_directory_uri().('/dist/scripts/main.js'), ['jquery'], IAP_THEME_VERSION, true);
+        wp_enqueue_style('sage/main.css', get_stylesheet_directory_uri().('/dist/styles/main.css'), false, null);
+        wp_enqueue_script('sage/main.js', get_stylesheet_directory_uri().('/dist/scripts/main.js'), ['jquery'], null, true);
     }, 
     100
 );
