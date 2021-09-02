@@ -17,6 +17,8 @@ require_once 'vendor/autoload.php';
 use Carbon_Fields\Container as CarbonContainer;
 use Carbon_Fields\Field;
 
+define( 'IAP_THEME_VERSION', '1.3' );
+
 /**
  * Creates a back-end field section.
  *
@@ -335,8 +337,8 @@ add_action('after_setup_theme', 'ubc_iap_load');
 add_action(
     'wp_enqueue_scripts', 
     function () {
-        wp_enqueue_style('sage/main.css', get_stylesheet_directory_uri().('/dist/styles/main.css'), false, null);
-        wp_enqueue_script('sage/main.js', get_stylesheet_directory_uri().('/dist/scripts/main.js'), ['jquery'], null, true);
+        wp_enqueue_style('sage/main.css', get_stylesheet_directory_uri().('/dist/styles/main.css'), false, IAP_THEME_VERSION);
+        wp_enqueue_script('sage/main.js', get_stylesheet_directory_uri().('/dist/scripts/main.js'), ['jquery'], IAP_THEME_VERSION, true);
     }, 
     100
 );
