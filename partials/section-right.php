@@ -1,45 +1,31 @@
 <?php
-  $image_background  = $args['image_background'];
-  $image_circular_id = $args['image_circular_id'];
-  $heading           = $args['heading'];
-  $content           = isset($args['content']) ? $args['content'] : '';
-  $links             = $args['links'];
+$image_background = $args['image_background'];
+$image_circular_id = $args['image_circular_id'];
+$heading = $args['heading'];
+$content = isset($args['content']) ? $args['content'] : '';
+$links = $args['links'];
 
-  if($image_circular_id){
-    $image_circular = wp_get_attachment_image_url($image_circular_id, 'circle');
-    $image_alt      = get_post_meta($image_circular_id, '_wp_attachment_image_alt', true) ? get_post_meta($image_circular_id, '_wp_attachment_image_alt', true) : get_the_title($image_circular_id);
-  }
+if ($image_circular_id) {
+  $image_circular = wp_get_attachment_image_url($image_circular_id, 'circle');
+  $image_alt = get_post_meta($image_circular_id, '_wp_attachment_image_alt', true) ? get_post_meta($image_circular_id, '_wp_attachment_image_alt', true) : get_the_title($image_circular_id);
+}
 ?>
 
-<section>
-  <div class="bg-image section-header clip-bottom-concave--right" style="background-image:url(<?php echo esc_url($image_background) ?>)">
-    <div class="container">
+<section class="section-right">
+  <img class="img-fluid svg" src="<?php echo get_stylesheet_directory_uri() . ('/dist/images/blue-curve.svg'); ?>" loading="lazy">
+  <div class="bg-lightblue">
+
+    <div class="container py-5">
       <div class="row">
-        <div class="col-6 offset-6 pt-5">
-          <figure class="img-rounded">
-            <img class="img-fluid" src="<?php echo esc_url($image_circular) ?>" alt="<?php echo esc_attr($image_alt) ?>" loading="lazy"/>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bg-beige">
-    <div class="container pt-3 pb-5">
-      <div class="row">
-        <div class="col-6 col-md-7">
-          <h2 class="mb-0"><?php echo esc_html($heading) ?></h2>
-        </div>
-      </div>
-    </div>
-    <div class="clip-left-rounded" <?php echo count($links) ? 'style="margin-top: 90px"' : '' ?>>
-      <div class="bg-white">
-        <div class="container pt-4 pt-xl-5 pb-5">
+        <div class="col-12">
+
+          <h2 class=""><?php echo esc_html($heading) ?></h2>
           <?php echo $content ? wpautop(wp_kses_post($content)) : '' ?>
-          <?php if(count($links)): ?>
+          <?php if (count($links)): ?>
             <div class="row justify-content-center" style="margin-top:-130px;">
-              <?php foreach($links as $index=>$link): ?>
+              <?php foreach ($links as $index => $link): ?>
                 <div class="col-md-4 mb-4"><a class="btn btn-card text-uppercase" href="<?php echo esc_url($link['link']) ?>" data-index="<?php echo esc_attr($index) ?>"><span><?php echo esc_html($link['label']) ?></span></a></div>
-              <?php endforeach ?>
+                    <?php endforeach ?>
             </div>
           <?php endif ?>
         </div>

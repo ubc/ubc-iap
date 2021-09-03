@@ -12,7 +12,7 @@
   }
 ?>
 
-<section>
+<section class="section-left">
   <div class="bg-image section-header clip-bottom-concave--left" style="background-image:url(<?php echo esc_url($image_background) ?>);z-index:1;">
     <div class="container">
       <div class="row">
