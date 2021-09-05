@@ -6,6 +6,7 @@
   </div>
   <div class="bg-white">
     <div class="container pt-3 pt-lg-5 pb-4 pb-lg-5">
+      <?php echo get_template_part('partials/breadcrumbs') ?>
       <div class="row">
         <div class="col-12">
           <h2 class=""><?php echo esc_html($args['landing_heading']) ?></h2>

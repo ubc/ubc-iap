@@ -58,6 +58,10 @@ h3 {
 hr {
   border-top: 1px solid $grey;
   margin: 3rem 0;
+
+  &.white {
+    border-color: white;
+  }
 }
 
 a {
@@ -157,13 +161,14 @@ ol {
 .breadcrumb {
   background: none;
   display: block;
-  font-family: "Whitney Book Regular", sans-serif;
+  font-family: "Whitney Semibold Regular", sans-serif;
   font-size: 25px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
 
   a {
+    color: #4c4d4f;
     text-decoration: none;
 
     @include hover-focus {
@@ -171,8 +176,20 @@ ol {
     }
   }
 
+  .divider {
+    color: #4c4d4f;
+  }
+
   .trail-end {
-    color: $brown;
+    color: #83503a;
+  }
+
+  &.white {
+    a,
+    .divider,
+    .trail-end {
+      color: white;
+    }
   }
 }
 
@@ -440,7 +457,7 @@ ol {
   &::after {
     background-image: url("../images/Animikii-Curve-2.svg");
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     content: "";
     display: block;
     height: 45px;
@@ -448,6 +465,10 @@ ol {
     @include media-breakpoint-up(md) {
       height: 13vw;
     }
+  }
+
+  &.white::after {
+    background-image: url("../images/Animikii-Curve-2-White.svg");
   }
 }
 

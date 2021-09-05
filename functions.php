@@ -225,6 +225,15 @@ function crb_attach_theme_options()
             )
         );
 
+    // President's Message
+    CarbonContainer::make('post_meta', 'Circular Image')
+        ->where('post_template', '=', 'template-presidents-message.php')
+        ->add_fields(
+            array(
+                Field::make('image', 'crb_circular_image'),
+            )
+        );
+
     // Engagement Process
     CarbonContainer::make('post_meta', 'Header')
         ->where('post_template', '=', 'template-the-engagement-process.php')
