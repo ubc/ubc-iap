@@ -17,9 +17,11 @@
     <div class="container">
       <div class="row">
         <div class="col-6 offset-6 pt-5">
+          <?php if(isset($image_circular)): ?>
           <figure class="img-rounded">
-            <img class="img-fluid" src="<?php echo esc_url($image_circular) ?>" alt="<?php echo esc_attr($image_alt) ?>" loading="lazy"/>
+            <img class="img-fluid" src="<?php echo esc_url($image_circular) ?>" alt="<?php echo isset($image_alt) ? esc_attr($image_alt) : '' ?>" loading="lazy"/>
           </figure>
+          <?php endif ?>
         </div>
       </div>
     </div>
@@ -35,7 +37,7 @@
     <div class="clip-right-rounded" <?php echo count($links) ? 'style="margin-top: 90px"' : '' ?>>
       <div class="bg-white">
         <div class="container pt-4 pt-xl-5 pb-5 <?php echo $columns ? 'columns-' . $columns : '' ?>">
-          <?php echo $content ? wpautop(esc_html($content)) : '' ?>
+          <?php echo $content ? wpautop(wp_kses_post($content)) : '' ?>
           <?php if(count($links)): ?>
             <div class="row justify-content-center" style="margin-top:-130px;">
               <?php foreach($links as $index=>$link): ?>

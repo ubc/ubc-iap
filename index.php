@@ -12,8 +12,7 @@ get_header(); // Loads the header.php template.?>
   )) ?>
   <section class="bg-white">
     <div class="container py-5">
-      <?php echo UBC_Collab_Navigation::breadcrumb() ?>
-      <hr class="mt-2 mb-5"/>
+      <?php echo get_template_part('partials/breadcrumbs') ?>
       <?php while(have_posts()): the_post(); ?>
         <div class="row mb-5">
           <div class="col-md-4">

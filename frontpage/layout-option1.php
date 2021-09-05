@@ -28,10 +28,7 @@ get_header(); // Loads the header.php template.
         'links'             => [],
     ]) ?>
 
-
     <?php echo get_template_part('partials/section-news') ?>
-
-
     <?php echo get_template_part('partials/pre-footer') ?>
 
     <script>
