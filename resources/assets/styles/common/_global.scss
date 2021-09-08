@@ -1,6 +1,9 @@
+* {
+  font-family: "Whitney SSm A", "Whitney SSm B", Arial, sans-serif !important;
+}
+
 h1 {
   color: $blue;
-  font-family: "Merriweather", serif;
   font-size: 45px;
   font-weight: bold;
   margin-bottom: 2rem;
@@ -20,7 +23,6 @@ h1 {
 
 h2 {
   color: $blue;
-  font-family: "Whitney Bold", sans-serif;
   font-size: 36px;
   line-height: 1;
   margin-bottom: 1rem;
@@ -41,7 +43,6 @@ h2 {
 
 h3 {
   color: $blue;
-  font-family: "Merriweather", serif;
   font-size: 24px;
   line-height: 1.1;
   margin-bottom: 1rem;
@@ -78,7 +79,6 @@ p,
 ul,
 ol {
   color: $grey;
-  font-family: "Merriweather", serif;
   font-size: 17px;
   line-height: 1.45;
   margin-bottom: 1.25rem;
@@ -161,7 +161,6 @@ ol {
 .breadcrumb {
   background: none;
   display: block;
-  font-family: "Whitney Semibold Regular", sans-serif;
   font-size: 25px;
   margin: 0;
   padding: 0;
@@ -198,7 +197,6 @@ ol {
   border: 4px solid $blue;
   border-radius: 45px;
   color: white !important;
-  font-family: "Whitney Bold", sans-serif;
   font-size: 25px;
   padding: 5px 40px 7px;
   text-decoration: none;
@@ -287,7 +285,6 @@ ol {
   }
 
   p {
-    font-family: "Whitney Book Regular", sans-serif;
     line-height: 1.2;
   }
 }
@@ -1348,7 +1345,6 @@ ol {
     p,
     ol,
     ul {
-      font-family: "Whitney Semibold", sans-serif;
       font-size: 24px;
       margin-bottom: 0.5rem;
 
@@ -1364,14 +1360,6 @@ ol {
         line-height: 1.3;
       }
     }
-  }
-}
-
-.content-bubble {
-  p,
-  ol,
-  ul, {
-    font-family: "Whitney Book", sans-serif;
   }
 }
 
@@ -1399,7 +1387,6 @@ ol {
 
 .small {
   font-size: 20px;
-  font-family: "Whitney Book Regular", sans-serif;
 }
 
 .text-white h1,
@@ -1410,18 +1397,6 @@ ol {
 .text-white ol,
 .text-white ul {
   color: white;
-}
-
-.text-whitney {
-  font-family: "Whitney Bold", sans-serif;
-}
-
-.text-whitney-book {
-  font-family: "Whitney Book Regular", sans-serif;
-}
-
-.text-whitney-semibold {
-  font-family: "Whitney Semibold Regular", sans-serif;
 }
 
 #totem {
@@ -1495,7 +1470,6 @@ ol {
 
     > span:first-of-type {
       color: $blue;
-      font-family: "Whitney Bold", sans-serif;
       font-size: 20px;
       flex-shrink: 0;
       width: 35px;

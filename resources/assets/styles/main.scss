@@ -90,6 +90,7 @@
   @import "components/comments";
   @import "components/forms";
   @import "components/wp-classes";
+  @import "components/accordion";
   @import "layouts/header";
   @import "layouts/sidebar";
   @import "layouts/footer";
@@ -134,4 +135,33 @@
       font-size: 70px;
     }
   }
+}
+
+#bootstrap_iso ul > li.timeline-item {
+  margin-bottom: 0;
+}
+
+.timeline-info {
+  font-size: 1.4rem;
+  color: #4c4d4f;
+}
+
+#bootstrap_iso li.period h3.timeline-title {
+  color: #4c4d4f;
+  font-weight: 700;
+}
+
+.timeline-marker::after {
+  background: #dacab5;
+}
+
+.timeline-marker::before {
+  background: #002145;
+  width: 20px;
+  height: 20px;
+}
+
+.period .timeline-marker::before {
+  border-top: 3px solid #dacab5;
+  border-bottom: 3px solid #dacab5;
 }
