@@ -13708,4 +13708,8 @@
 .home .bg-image.bg-image--landing {
   background-position: top center !important; }
 
+/* line 189, stdin */
+#bootstrap_iso .clip-bottom-concave--right.white::after {
+  background-position-y: -1px; }
+
 /*# sourceMappingURL=main.css.map*/
