@@ -1529,3 +1529,11 @@ ol {
     transform-origin: top left;
   }
 }
+
+figure.aligncenter {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
