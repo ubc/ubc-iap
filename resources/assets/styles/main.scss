@@ -90,6 +90,7 @@
   @import "components/comments";
   @import "components/forms";
   @import "components/wp-classes";
+  @import "components/accordion";
   @import "layouts/header";
   @import "layouts/sidebar";
   @import "layouts/footer";
@@ -134,4 +135,53 @@
       font-size: 70px;
     }
   }
+}
+
+#bootstrap_iso ul > li.timeline-item {
+  margin-bottom: 0;
+}
+
+.timeline-info {
+  font-size: 1.4rem;
+  color: #4c4d4f;
+}
+
+#bootstrap_iso li.period h3.timeline-title {
+  color: #4c4d4f;
+  font-weight: 700;
+}
+
+.timeline-marker::after {
+  background: #dacab5;
+}
+
+.timeline-marker::before {
+  background: #002145;
+  width: 20px;
+  height: 20px;
+}
+
+.period .timeline-marker::before {
+  border-top: 3px solid #dacab5;
+  border-bottom: 3px solid #dacab5;
+}
+
+.page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
+  font-size: 22px;
+
+  @media (min-width: 1200px) {
+    font-size: 50px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 45px;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 28px;
+  }
+}
+
+.home .bg-image.bg-image--landing {
+  background-position: top center !important;
 }

@@ -1,5 +1,5 @@
 <section class="section-header">
-  <div class="bg-image bg-image--header clip-bottom-concave--right <?php echo isset($args['class']) ? $args['class'] : '' ?>" style="background-image:url(<?php echo esc_url($args['image']) ?>)">
+  <div class="bg-image bg-image--header clip-bottom-concave--right <?php echo isset($args['white-background']) && $args['white-background'] ? 'white' : ''; ?> <?php echo isset($args['class']) ? $args['class'] : '' ?>" style="background-image:url(<?php echo esc_url($args['image']) ?>)">
     <div class="container d-flex align-items-center">
       <h1 class="landing-heading"><span><?php echo esc_html($args['title']) ?></span></h1>
     </div>

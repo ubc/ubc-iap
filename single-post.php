@@ -6,14 +6,15 @@
 			'partials/section',
 			'header',
 			[
-				'image'   => get_the_post_thumbnail_url(),
-				'title'   => get_the_title(),
-				'heading' => carbon_get_the_post_meta( 'crb_header_heading' ),
+				'image'      => get_the_post_thumbnail_url(),
+				'title'      => get_the_title(),
+				'heading'    => carbon_get_the_post_meta( 'crb_header_heading' ),
+				'white-background' => true,
 			]
 		);
 	?>
 
-	<section class="bg-beige">
+	<section>
 		<div class="container pb-5">
 			<?php echo the_content(); ?>
 		</div>

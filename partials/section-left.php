@@ -27,10 +27,10 @@
     </div>
   </div>
   <div class="bg-beige">
-    <div class="container pt-3 pb-5">
+    <div class="container pt-3 pb-3 pb-md-5">
       <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <h2 class="mb-0"><?php echo esc_html($heading) ?></h2>
+        <div class="col-md-8 col-lg-10">
+          <h2 class="mb-0 mt-5 mt-md-0"><?php echo esc_html($heading) ?></h2>
         </div>
       </div>
     </div>

@@ -17,15 +17,8 @@ if(is_home()){
       $ancestors = array_reverse($ancestors);
       $ancestors[] = get_post(get_option('page_for_posts'));
 } else {
-      $ancestors        = [get_post()];
-      $current_parent   = null;
-
-      while($current_parent && get_post_parent($current_parent)){
-            $current_parent   = get_post_parent($current_parent);
-            $ancestors[]      = $current_parent;
-      }
-
-      $ancestors = array_reverse($ancestors);
+      $ancestors = array_reverse( get_post_ancestors(get_the_ID()) );
+      array_push( $ancestors, get_the_ID() );
 }
 
 ?>
