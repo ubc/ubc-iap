@@ -185,3 +185,7 @@
 .home .bg-image.bg-image--landing {
   background-position: top center !important;
 }
+
+#bootstrap_iso .clip-bottom-concave--right.white::after {
+  background-position-y: -1px;
+}
