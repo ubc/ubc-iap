@@ -13688,28 +13688,90 @@
   border-top: 3px solid #dacab5;
   border-bottom: 3px solid #dacab5; }
 
-/* line 169, stdin */
+/* Update president message page so the text will be in one line */
+/* line 170, stdin */
 .page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
   font-size: 22px; }
   @media (min-width: 1200px) {
-    /* line 169, stdin */
+    /* line 170, stdin */
     .page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
       font-size: 50px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 169, stdin */
+    /* line 170, stdin */
     .page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
       font-size: 45px; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    /* line 169, stdin */
+    /* line 170, stdin */
     .page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
       font-size: 28px; } }
 
-/* line 185, stdin */
+/* Update home page banner background image position so the eagle will always be visible on screen. */
+/* line 187, stdin */
 .home .bg-image.bg-image--landing {
   background-position: top center !important; }
 
-/* line 189, stdin */
-#bootstrap_iso .clip-bottom-concave--right.white::after {
-  background-position-y: -1px; }
+/* Background image order issue, will need to remove this CSS once image is updated. */
+/* line 192, stdin */
+#bootstrap_iso .clip-bottom-concave--right::after {
+  background-repeat: no-repeat; }
+
+/* Cards in columns such as on https://iap-2021.sites.olt.ubc.ca/implementation/isi-fund/ */
+/* line 197, stdin */
+.wp-block-column .uagb-cta__outer-wrap {
+  padding: 1.5rem !important; }
+
+/* line 201, stdin */
+.wp-block-column .uagb-cta__outer-wrap .uagb-cta__title {
+  font-size: 32px !important; }
+
+/* line 205, stdin */
+.wp-block-column .uagb-cta__outer-wrap .uagb-cta-text-wrap p {
+  font-size: 20px !important; }
+
+/* line 209, stdin */
+.text-no-margin-bottom h3 {
+  margin-bottom: 0 !important; }
+
+/* line 213, stdin */
+.wp-block-column.column-full-height-card .uagb-cta__outer-wrap .uagb-cta__title {
+  font-size: 26px !important; }
+
+/* line 217, stdin */
+.wp-block-column.column-full-height-card {
+  background: #0c2343 !important; }
+
+/* About OISI Team page tidying */
+@media (min-width: 375px) {
+  /* line 223, stdin */
+  .page-id-96 #bootstrap_iso figure.alignleft {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem; }
+  /* line 228, stdin */
+  .page-id-96 #bootstrap_iso img {
+    border-radius: 5px; } }
+
+/* line 233, stdin */
+#bootstrap_iso p.pre-footer-message {
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-top: 0; }
+
+/* line 241, stdin */
+#bootstrap_iso p.pre-footer-message a:hover {
+  text-decoration: underline;
+  color: white;
+  text-decoration-style: dotted; }
+
+@media (min-width: 768px) {
+  /* line 248, stdin */
+  #bootstrap_iso p.pre-footer-message {
+    font-size: 28px; } }
+
+@media (min-width: 992px) {
+  /* line 254, stdin */
+  #bootstrap_iso p.pre-footer-message {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=main.css.map*/

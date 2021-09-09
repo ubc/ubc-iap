@@ -17,7 +17,7 @@ require_once 'vendor/autoload.php';
 use Carbon_Fields\Container as CarbonContainer;
 use Carbon_Fields\Field;
 
-define( 'IAP_THEME_VERSION', '1.5' );
+define( 'IAP_THEME_VERSION', '1.6' );
 
 
 /**
