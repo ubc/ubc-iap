@@ -19,6 +19,12 @@ use Carbon_Fields\Field;
 
 define( 'IAP_THEME_VERSION', '1.5' );
 
+
+/**
+ * Add the 'Goals' custom post type for the goal pages
+*/
+require_once(__DIR__ . './inc/custom-post-types.php');
+
 /**
  * Creates a back-end field section.
  *
@@ -97,6 +103,26 @@ function crb_attach_theme_options()
         ->add_fields(
             array(
                 Field::make( 'textarea', 'crb_pre_footer_text' ),
+            )
+        );
+
+    // Goal Custom Page Type    
+    CarbonContainer::make('post_meta', 'Goal Details')
+        ->where('post_type', '=', 'goals')
+        ->add_fields(
+            array(
+                Field::make('text', 'crb_goal_number'),
+                Field::make('text', 'crb_goal_intro_bold_text'),
+                Field::make('text', 'crb_goal_intro_regular_text'),
+                Field::make('image', 'crb_goal_right_image'),
+                Field::make('text', 'crb_goal_quote_text'),
+                Field::make('text', 'crb_goal_quote_author'),
+                Field::make( 'complex', 'crb_goal_actions', 'Actions' )
+            	->set_layout( 'tabbed-horizontal' )
+            	->add_fields( array(
+            		Field::make( 'text', 'action_number', 'Action Number' ),
+            		Field::make( 'text', 'action_text', 'Action Text' ),
+            	) ),
             )
         );
 
