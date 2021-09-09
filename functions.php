@@ -23,7 +23,7 @@ define( 'IAP_THEME_VERSION', '1.6' );
 /**
  * Add the 'Goals' custom post type for the goal pages
 */
-require_once(__DIR__ . './inc/custom-post-types.php');
+require_once(__DIR__ . '/inc/custom-post-types.php');
 
 /**
  * Creates a back-end field section.
@@ -146,6 +146,27 @@ function crb_attach_theme_options()
     //crb_create_section_with_links('Section 5', 'crb_section_5');
     //crb_create_section('Section 6', 'crb_section_6');
 
+    // Action Plan
+    CarbonContainer::make('post_meta', 'Header')
+        ->where('post_template', '=', 'template-action-plan.php')
+        ->add_fields(
+            array(
+                Field::make('image', 'crb_header_background_image'),
+                Field::make('text', 'crb_header_heading'),
+            )
+        );
+
+    CarbonContainer::make('post_meta', 'Content')
+        ->where('post_template', '=', 'template-action-plan.php')
+        ->add_fields(
+            array(
+                Field::make('rich_text', 'crb_introduction'),
+                Field::make('text', 'crb_goals_heading'),
+                Field::make('text', 'crb_goals_sub_heading'),
+                Field::make('image', 'crb_goals_header_image'),
+
+            )
+        );
 
     // Foundations
     CarbonContainer::make('post_meta', 'Header')

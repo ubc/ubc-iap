@@ -42,5 +42,14 @@ if(is_home()){
                   <?php endif ?>
             <?php endforeach ?>
       </div>
-      <hr class="mt-2 mb-5 <?php echo isset($args['class']) ? $args['class'] : '' ?>"/>
+
+      <?php
+        if($args['margin-bottom']): 
+          $breadCrumbSpacing = $args['margin-bottom'];
+        else: 
+          $breadCrumbSpacing = "mb-5";
+        endif
+      ?>
+
+        <hr class="mt-2 <?php echo $breadCrumbSpacing ?> <?php echo isset($args['class']) ? $args['class'] : '' ?>"/>
 </div>
