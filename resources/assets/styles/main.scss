@@ -166,6 +166,7 @@
   border-bottom: 3px solid #dacab5;
 }
 
+/* Update president message page so the text will be in one line */
 .page-template-template-presidents-message #bootstrap_iso .bg-beige h2 {
   font-size: 22px;
 
@@ -182,10 +183,75 @@
   }
 }
 
+/* Update home page banner background image position so the eagle will always be visible on screen. */
 .home .bg-image.bg-image--landing {
   background-position: top center !important;
 }
 
-#bootstrap_iso .clip-bottom-concave--right.white::after {
-  background-position-y: -1px;
+/* Background image order issue, will need to remove this CSS once image is updated. */
+#bootstrap_iso .clip-bottom-concave--right::after {
+  background-repeat: no-repeat;
+}
+
+/* Cards in columns such as on https://iap-2021.sites.olt.ubc.ca/implementation/isi-fund/ */
+.wp-block-column .uagb-cta__outer-wrap {
+  padding: 1.5rem !important;
+}
+
+.wp-block-column .uagb-cta__outer-wrap .uagb-cta__title {
+  font-size: 32px !important;
+}
+
+.wp-block-column .uagb-cta__outer-wrap .uagb-cta-text-wrap p {
+  font-size: 20px !important;
+}
+
+.text-no-margin-bottom h3 {
+  margin-bottom: 0 !important;
+}
+
+.wp-block-column.column-full-height-card .uagb-cta__outer-wrap .uagb-cta__title {
+  font-size: 26px !important;
+}
+
+.wp-block-column.column-full-height-card {
+  background: #0c2343 !important;
+}
+
+/* About OISI Team page tidying */
+@media (min-width: 375px) {
+  .page-id-96 #bootstrap_iso figure.alignleft {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-id-96 #bootstrap_iso img {
+    border-radius: 5px;
+  }
+}
+
+#bootstrap_iso p.pre-footer-message {
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+#bootstrap_iso p.pre-footer-message a:hover {
+  text-decoration: underline;
+  color: white;
+  text-decoration-style: dotted;
+}
+
+@media (min-width: 768px) {
+  #bootstrap_iso p.pre-footer-message {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  #bootstrap_iso p.pre-footer-message {
+    font-size: 40px;
+  }
 }
