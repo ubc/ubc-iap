@@ -16,6 +16,8 @@ if(is_home()){
 
       $ancestors = array_reverse($ancestors);
       $ancestors[] = get_post(get_option('page_for_posts'));
+} elseif(get_query_var('post_type') == 'goals') {
+  $goalsPage = true;
 } else {
       $ancestors = array_reverse( get_post_ancestors(get_the_ID()) );
       array_push( $ancestors, get_the_ID() );
@@ -32,15 +34,31 @@ if(is_home()){
                   <span class="trail-begin"><a href="<?php echo site_url() ?>" title="<?php echo get_bloginfo('name') ?>" rel="home" class="trail-begin"><?php echo __( 'Home', 'ubc-iap' ) ?></a></span>
             <?php endif ?>
 
-            <?php foreach($ancestors as $i=>$ancestor): ?>
-                  <?php if(count($ancestors) == $i + 1): ?>
-                        <span class="divider">»</span>
-                        <span class="trail-end"><?php echo get_the_title($ancestor) ?></span>
-                  <?php else: ?>
-                        <span class="divider">»</span>
-                        <a href="<?php echo get_the_permalink($ancestor) ?>" title="<?php echo get_the_title($ancestor) ?>"><?php echo get_the_title($ancestor) ?></a>
-                  <?php endif ?>
-            <?php endforeach ?>
+            <?php if($goalsPage): ?>
+
+                  <span class="divider">»</span>
+                  <a href="/implementation" title="Implementation>">Implementation</a>
+
+                  <span class="divider">»</span>
+                  <a href="/the-action-plan/" title="The Action Plan>">The Action Plan</a>
+
+
+                  <span class="divider">»</span>
+                  <span class="trail-end"><?php echo get_the_title() ?></span>
+
+
+            <?php else: ?>
+              <?php foreach($ancestors as $i=>$ancestor): ?>
+                    <?php if(count($ancestors) == $i + 1): ?>
+                          <span class="divider">»</span>
+                          <span class="trail-end"><?php echo get_the_title($ancestor) ?></span>
+                    <?php else: ?>
+                          <span class="divider">»</span>
+                          <a href="<?php echo get_the_permalink($ancestor) ?>" title="<?php echo get_the_title($ancestor) ?>"><?php echo get_the_title($ancestor) ?></a>
+                    <?php endif ?>
+              <?php endforeach ?>
+
+            <?php endif ?>
       </div>
 
       <?php
