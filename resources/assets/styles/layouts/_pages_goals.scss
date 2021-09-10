@@ -34,18 +34,19 @@ $goal-sand: #DACAB5;
   }
 
   .actions {
-
+    padding-top:20px;
     .action {
       position: relative;
       margin-left: 10px;
       border-left: solid 5px $goal-sand;
       padding-left: 30px;
       margin-bottom: 0;
-      padding-bottom:20px;
+      padding-bottom: 20px;
+
       @include media-breakpoint-up(md) {
         padding-left: 40px;
       }
-  
+
       @include media-breakpoint-up(xl) {
         border-left-width: 10px;
         padding-left: 50px;
@@ -60,6 +61,7 @@ $goal-sand: #DACAB5;
       border-radius: 15px;
       top: 40%;
       left: -18px;
+
       @include media-breakpoint-up(xl) {
         width: 40px;
         height: 40px;
@@ -72,14 +74,19 @@ $goal-sand: #DACAB5;
       font-family: 'Whitney Semibold Regular' !important;
       font-weight: 200;
       font-size: 30px;
+
       @include media-breakpoint-up(xl) {
-        font-size:36px;
+        font-size: 36px;
       }
     }
 
     .action-text {
       margin: 0;
       padding-bottom: 20px;
+      font-size:14px;
+      @include media-breakpoint-up(md) {
+        font-size: 20px;
+      }
     }
 
 
@@ -159,6 +166,43 @@ $goal-sand: #DACAB5;
 }
 
 /* Sidebar Quote */
+
+.quote-image {
+  overflow: hidden;
+  position: relative;
+}
+
+.quote-image .quote-clip {
+  position: absolute;
+  background: white;
+  border-radius: 100%;
+  width: 800px;
+  height: 200px;
+  margin-top: -50px;
+  margin-left: -400px;
+  bottom: -170px;
+  z-index: 2;
+  left: 50%;
+
+  @include media-breakpoint-up(md) {
+    border-radius: 100%;
+    width: 1000px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: -500px;
+    bottom: -170px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    border-radius: 100%;
+    width: 600px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: -300px;
+    bottom: -170px;
+  }
+}
+
 .goal-quote-wrapper {
   position: relative;
   padding: 20px 40px 20px;
@@ -178,6 +222,8 @@ $goal-sand: #DACAB5;
   @include media-breakpoint-up(xl) {
     padding: 40px 50px 40px 80px;
   }
+
+
 
   .quotes {
     font-family: 'Whitney Semibold Regular' !important;
@@ -261,4 +307,3 @@ $goal-sand: #DACAB5;
     font-size: 30px;
   }
 }
-

@@ -42,3 +42,23 @@ h3.text-burnt {
   background: rgba(255, 255, 255, 0.75);
   border: 12px solid $darkbeige;
 }
+
+/* Action Plan Page */
+.template-action-plan {
+  .goals-sub-header {
+    color: #4C4D4F !important;
+  }
+
+  .strategic-plan {
+    display: block;
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+    font-size: 40px;
+    text-decoration: none !important;
+  }
+
+  .strategic-plan:hover,
+  .strategic-plan:focus {
+    text-decoration: underline !important;
+  }
+}
