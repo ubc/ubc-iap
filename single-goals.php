@@ -49,7 +49,27 @@ get_header(); ?>
 
 			</div>
 			<section class="col-12 col-lg-4 section-quote mt-5 mt-lg-0">
+        <style>
+          .quote-image {
+            overflow: hidden;
+            position: relative;
+          }
+          .quote-image span {
+            display: block;
+            content: ' ';
+            background: white;
+            width: 600px;
+            height: 200px;
+            border-radius: 100%;
+            margin-top: -50px;
+            z-index: 2;
+            position: absolute;  
+            bottom: -170px;
+            left: -115px;
+          }
+        </style>
 				<div class="quote-image">
+          <span></span>
 					<?php
 
 					$quote_image = carbon_get_the_post_meta('crb_goal_right_image');
