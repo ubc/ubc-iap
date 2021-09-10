@@ -36,6 +36,9 @@
     </div>
     <div class="clip-right-rounded" <?php echo count($links) ? 'style="margin-top: 90px"' : '' ?>>
       <div class="bg-white">
+        <div class="container">
+          <?php echo get_template_part('partials/breadcrumbs') ?>
+        </div>
         <div class="container pt-4 pt-xl-5 pb-5 <?php echo $columns ? 'columns-' . $columns : '' ?>">
           <?php echo $content ? wpautop(wp_kses_post($content)) : '' ?>
           <?php if(count($links)): ?>
