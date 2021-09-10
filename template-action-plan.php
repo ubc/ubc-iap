@@ -34,6 +34,7 @@ get_header(); // Loads the header.php template.
 <div id="bootstrap_iso">
   <?php
   echo get_template_part('partials/section', 'header', [
+      'class' => 'white',
       'image' => wp_get_attachment_image_url(carbon_get_the_post_meta('crb_header_background_image'), 'header'),
       'title' => get_the_title()
   ])
