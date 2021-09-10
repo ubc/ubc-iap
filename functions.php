@@ -364,6 +364,8 @@ function ubc_iap_load()
     add_image_size( 'header',       1920,   600, array('center', 'center'));
     add_image_size( 'circle',       600,    600, array('center', 'center'));
     add_image_size( 'circle-small', 450,    450, array('center', 'center'));
+    add_image_size( 'goal-tall',    500,    900, array('center', 'center'));
+    add_image_size( 'goal-wide',    900,    500, array('center', 'center'));
 }
 
 add_action('carbon_fields_register_fields', 'crb_attach_theme_options');
