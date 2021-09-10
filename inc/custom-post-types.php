@@ -21,13 +21,11 @@ function register_goals()
     );
     $args = array(
         'labels' => $labels,
-        'show_in_rest' => true,
         'supports' => array(
             'title',
             'editor',
             'thumbnail',
-            'revisions',
-            'editor'
+            'revisions'
         ),
         'rewrite' => array('slug' => 'the-action-plan'),
         'capability_type' => 'post',

@@ -1,0 +1,247 @@
+/* Goals custom post type */
+
+$goal-darkbrown: #471600;
+$goal-brown: #714333;
+$goal-beige: #8A7365;
+$goal-clay: #895637;
+$goal-darkblue: #002145;
+$goal-sand: #DACAB5;
+
+.goals {
+  h2 {
+
+    font-size: 32px;
+    font-weight: 700;
+
+    @include media-breakpoint-up(md) {
+      font-size: 40px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 40px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 48px;
+    }
+
+  }
+
+  h3 {
+    color: $goal-darkbrown;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .actions {
+
+    .action {
+      position: relative;
+      margin-left: 10px;
+      border-left: solid 5px $goal-sand;
+      padding-left: 30px;
+      margin-bottom: 0;
+      padding-bottom:20px;
+      @include media-breakpoint-up(md) {
+        padding-left: 40px;
+      }
+  
+      @include media-breakpoint-up(xl) {
+        border-left-width: 10px;
+        padding-left: 50px;
+      }
+
+    }
+
+    .action-circle {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      top: 40%;
+      left: -18px;
+      @include media-breakpoint-up(xl) {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        left: -25px;
+      }
+    }
+
+    h4.action-number {
+      font-family: 'Whitney Semibold Regular' !important;
+      font-weight: 200;
+      font-size: 30px;
+      @include media-breakpoint-up(xl) {
+        font-size:36px;
+      }
+    }
+
+    .action-text {
+      margin: 0;
+      padding-bottom: 20px;
+    }
+
+
+    /* Each Action has an associated colour*/
+    .action:nth-of-type(7n+1) {
+      .action-number {
+        color: $goal-darkbrown;
+      }
+
+      .action-circle {
+        background-color: $goal-darkbrown;
+      }
+    }
+
+    .action:nth-of-type(7n+2) {
+      .action-number {
+        color: $goal-brown;
+      }
+
+      .action-circle {
+        background-color: $goal-brown;
+      }
+    }
+
+    .action:nth-of-type(7n+3) {
+      .action-number {
+        color: $goal-beige;
+      }
+
+      .action-circle {
+        background-color: $goal-beige;
+      }
+    }
+
+    .action:nth-of-type(7n+4) {
+      .action-number {
+        color: $goal-clay;
+      }
+
+      .action-circle {
+        background-color: $goal-clay;
+      }
+    }
+
+    .action:nth-of-type(7n+5) {
+      .action-number {
+        color: $goal-darkblue;
+      }
+
+      .action-circle {
+        background-color: $goal-darkblue;
+      }
+    }
+
+    .action:nth-of-type(7n+6) {
+      .action-number {
+        color: $goal-clay;
+      }
+
+      .action-circle {
+        background-color: $goal-clay;
+      }
+
+    }
+
+    .action:nth-of-type(7n+7) {
+      .action-number {
+        color: $goal-beige;
+      }
+
+      .action-circle {
+        background-color: $goal-beige;
+      }
+    }
+  }
+
+}
+
+/* Sidebar Quote */
+.goal-quote-wrapper {
+  position: relative;
+  padding: 20px 40px 20px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 20px 40px 60px 100px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 30px 40px 40px 80px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 40px 60px 40px 70px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: 40px 50px 40px 80px;
+  }
+
+  .quotes {
+    font-family: 'Whitney Semibold Regular' !important;
+    font-weight: 200;
+    position: absolute;
+    color: $goal-darkbrown;
+    font-size: 120px;
+    line-height: 1;
+
+    @include media-breakpoint-up(xl) {
+      font-size: 150px;
+    }
+  }
+
+  .leftquote {
+    top: 5px;
+    left: 20px;
+
+    @include media-breakpoint-up(md) {
+      top: 15px;
+      left: 5px;
+    }
+
+  }
+
+  .rightquote {
+    bottom: 0;
+    right: 30px;
+
+    @include media-breakpoint-up(lg) {
+      right: 5px;
+    }
+  }
+
+}
+
+.goal-quote-text {
+  color: $goal-darkblue;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+
+  @include media-breakpoint-up(md) {
+    font-size: 32px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 20px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 32px;
+  }
+}
+
+.goal-quote-author {
+  font-size: 14px;
+  color: $grey;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 12px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 14px;
+  }
+}
