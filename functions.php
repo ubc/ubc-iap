@@ -161,6 +161,8 @@ function crb_attach_theme_options()
         ->add_fields(
             array(
                 Field::make('rich_text', 'crb_introduction'),
+                Field::make('text', 'crb_quote_text'),
+                Field::make('text', 'crb_quote_author'),
                 Field::make('text', 'crb_goals_heading'),
                 Field::make('text', 'crb_goals_sub_heading'),
                 Field::make('image', 'crb_goals_header_image'),
