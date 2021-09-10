@@ -13793,7 +13793,7 @@
   /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-wrapper {
     position: relative;
-    padding: 20px 40px 20px; }
+    padding: 35px; }
     @media (min-width: 375px) {
       /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
@@ -13810,76 +13810,80 @@
       /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
         padding: 40px 50px 40px 80px; } }
-    /* line 228, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .quotes {
       font-family: 'Whitney Semibold Regular' !important;
       font-weight: 200;
       position: absolute;
       color: #471600;
-      font-size: 120px;
+      font-size: 40px;
       line-height: 1; }
-      @media (min-width: 1200px) {
-        /* line 228, resources/assets/styles/layouts/_pages_goals.scss */
+      @media (min-width: 375px) {
+        /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .quotes {
           font-size: 150px; } }
-    /* line 241, resources/assets/styles/layouts/_pages_goals.scss */
+      @media (min-width: 1200px) {
+        /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
+        #bootstrap_iso .goal-quote-wrapper .quotes {
+          font-size: 150px; } }
+    /* line 243, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .leftquote {
       top: 5px;
       left: 20px; }
       @media (min-width: 768px) {
-        /* line 241, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 243, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .leftquote {
           top: 15px;
           left: 5px; } }
-    /* line 252, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 254, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .rightquote {
       bottom: 0;
       right: 30px; }
       @media (min-width: 992px) {
-        /* line 252, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 254, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .rightquote {
           right: 5px; } }
-  /* line 263, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-text {
     color: #002145;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.2; }
     @media (min-width: 768px) {
-      /* line 263, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 32px; } }
     @media (min-width: 992px) {
-      /* line 263, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 20px; } }
     @media (min-width: 1200px) {
-      /* line 263, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 32px; } }
-  /* line 282, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-author {
     font-size: 14px;
     color: #4c4d4f; }
     @media (min-width: 992px) {
-      /* line 282, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-author {
         font-size: 12px; } }
     @media (min-width: 1200px) {
-      /* line 282, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-author {
         font-size: 14px; } }
-  /* line 295, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 297, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goals-prevnext {
     margin-top: 20px;
     font-size: 20px; }
-    /* line 299, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 301, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals-prevnext a {
       color: #4c4d4f;
       text-decoration: none;
       text-transform: uppercase; }
     @media (min-width: 992px) {
-      /* line 295, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 297, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goals-prevnext {
         margin-top: 50px;
         font-size: 30px; } }

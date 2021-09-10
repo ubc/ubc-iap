@@ -205,7 +205,7 @@ $goal-sand: #DACAB5;
 
 .goal-quote-wrapper {
   position: relative;
-  padding: 20px 40px 20px;
+  padding: 35px;
 
   @include media-breakpoint-up(sm) {
     padding: 20px 40px 60px 100px;
@@ -223,15 +223,17 @@ $goal-sand: #DACAB5;
     padding: 40px 50px 40px 80px;
   }
 
-
-
   .quotes {
     font-family: 'Whitney Semibold Regular' !important;
     font-weight: 200;
     position: absolute;
     color: $goal-darkbrown;
-    font-size: 120px;
+    font-size: 40px;
     line-height: 1;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 150px;
+    }
 
     @include media-breakpoint-up(xl) {
       font-size: 150px;
