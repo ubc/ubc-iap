@@ -13813,6 +13813,20 @@
       /* line 236, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-author {
         font-size: 14px; } }
+  /* line 249, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goals-prevnext {
+    margin-top: 20px;
+    font-size: 20px; }
+    /* line 253, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goals-prevnext a {
+      color: #4c4d4f;
+      text-decoration: none;
+      text-transform: uppercase; }
+    @media (min-width: 992px) {
+      /* line 249, resources/assets/styles/layouts/_pages_goals.scss */
+      #bootstrap_iso .goals-prevnext {
+        margin-top: 50px;
+        font-size: 30px; } }
   /* line 3, resources/assets/styles/layouts/_tinymce.scss */
   #bootstrap_iso body#tinymce {
     margin: 12px !important; }

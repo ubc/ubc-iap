@@ -27,7 +27,7 @@ function register_goals()
             'thumbnail',
             'revisions'
         ),
-        'rewrite' => array('slug' => 'the-action-plan'),
+        'rewrite' => array('slug' => 'implementation/the-action-plan'),
         'capability_type' => 'post',
         'menu_position' => 20, // after Pages
         'menu_icon' => 'dashicons-align-center', // https://lonewolfonline.net/wordpress-dashicons-cheat-sheet/

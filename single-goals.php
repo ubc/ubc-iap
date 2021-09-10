@@ -74,12 +74,15 @@ get_header(); ?>
 
 			</section>
 		</div>
+		<div class="row goals-prevnext">
+			<div class="col-4"><?php previous_post_link(); ?></div>
+			<div class="col-4 text-center"><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'The Action Plan' ) ) ); ?>">The Action Plan</a></div>
+			<div class="col-4 text-right"><?php next_post_link(); ?></div>
+		</div>
 	</div>
 
 	<?php echo get_template_part('partials/pre-footer'); ?>
 
 </div>
 
-<?php
-get_footer(); // Loads the footer.php template. 
-?>
+<?php get_footer(); // Loads the footer.php template. 

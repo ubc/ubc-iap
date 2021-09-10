@@ -245,3 +245,20 @@ $goal-sand: #DACAB5;
     font-size: 14px;
   }
 }
+
+.goals-prevnext {
+  margin-top: 20px;
+  font-size: 20px;
+
+  a {
+    color: $grey;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+}
+
