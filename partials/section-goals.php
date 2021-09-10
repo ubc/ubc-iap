@@ -9,7 +9,7 @@
 <section class="section-goals">
 
   <div class="container">
-    <div class="row mt-5">
+    <div class="row mt-4">
 
       <?php
       $args = array(
@@ -88,14 +88,17 @@
             }
 
             @media(min-width: 1140px) {
-              .goal-card-details, .goal-card-overlay {
+              .goal-card-details {
                 opacity: 0;
               }
               .goal-card:hover .goal-card-details,
-              .goal-card:hover .goal-card-overlay,
-              .goal-card:focus .goal-card-details,
-              .goal-card:focus .goal-card-overlay {
+              .goal-card:focus .goal-card-details {
                 opacity: 1;
+              }
+
+              .goal-card:hover .goal-card-overlay,
+              .goal-card:focus .goal-card.details {
+                mix-blend-mode: normal;
               }
 
               .goal-card:hover .goal-number-large,
