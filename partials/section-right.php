@@ -12,7 +12,7 @@ if ($image_circular_id) {
 ?>
 
 <section class="section-right">
-  <img class="img-fluid svg" src="<?php echo get_stylesheet_directory_uri() . ('/dist/images/blue-curve.svg'); ?>" loading="lazy">
+
   <div class="bg-lightblue">
 
     <div class="container py-5">
