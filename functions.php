@@ -19,6 +19,12 @@ use Carbon_Fields\Field;
 
 define( 'IAP_THEME_VERSION', '1.7' );
 
+
+/**
+ * Add the 'Goals' custom post type for the goal pages
+*/
+require_once(__DIR__ . '/inc/custom-post-types.php');
+
 /**
  * Creates a back-end field section.
  *
@@ -100,6 +106,26 @@ function crb_attach_theme_options()
             )
         );
 
+    // Goal Custom Page Type    
+    CarbonContainer::make('post_meta', 'Goal Details')
+        ->where('post_type', '=', 'goals')
+        ->add_fields(
+            array(
+                Field::make('text', 'crb_goal_number'),
+                Field::make('text', 'crb_goal_intro_bold_text'),
+                Field::make('text', 'crb_goal_intro_regular_text'),
+                Field::make('image', 'crb_goal_right_image'),
+                Field::make('text', 'crb_goal_quote_text'),
+                Field::make('text', 'crb_goal_quote_author'),
+                Field::make( 'complex', 'crb_goal_actions', 'Actions' )
+            	->set_layout( 'tabbed-horizontal' )
+            	->add_fields( array(
+            		Field::make( 'text', 'action_number', 'Action Number' ),
+            		Field::make( 'text', 'action_text', 'Action Text' ),
+            	) ),
+            )
+        );
+
     // Homepage
     CarbonContainer::make('post_meta', 'Landing')
         ->where('post_id', '=', get_option('page_on_front'))
@@ -120,6 +146,29 @@ function crb_attach_theme_options()
     //crb_create_section_with_links('Section 5', 'crb_section_5');
     //crb_create_section('Section 6', 'crb_section_6');
 
+    // Action Plan
+    CarbonContainer::make('post_meta', 'Header')
+        ->where('post_template', '=', 'template-action-plan.php')
+        ->add_fields(
+            array(
+                Field::make('image', 'crb_header_background_image'),
+                Field::make('text', 'crb_header_heading'),
+            )
+        );
+
+    CarbonContainer::make('post_meta', 'Content')
+        ->where('post_template', '=', 'template-action-plan.php')
+        ->add_fields(
+            array(
+                Field::make('rich_text', 'crb_introduction'),
+                Field::make('text', 'crb_quote_text'),
+                Field::make('text', 'crb_quote_author'),
+                Field::make('text', 'crb_goals_heading'),
+                Field::make('text', 'crb_goals_sub_heading'),
+                Field::make('image', 'crb_goals_header_image'),
+                Field::make('file', 'crb_goals_strategic_plan'),
+            )
+        );
 
     // Foundations
     CarbonContainer::make('post_meta', 'Header')
@@ -338,6 +387,8 @@ function ubc_iap_load()
     add_image_size( 'header',       1920,   600, array('center', 'center'));
     add_image_size( 'circle',       600,    600, array('center', 'center'));
     add_image_size( 'circle-small', 450,    450, array('center', 'center'));
+    add_image_size( 'goal-tall',    500,    900, array('center', 'center'));
+    add_image_size( 'goal-wide',    900,    500, array('center', 'center'));
 }
 
 add_action('carbon_fields_register_fields', 'crb_attach_theme_options');

@@ -8,6 +8,11 @@ get_header(); // Loads the header.php template.?>
 <div id="bootstrap_iso">
   <section class="bg-white">
     <div class="container py-5">
+      <div class="row pb-5">
+        <div class="col-12">
+        <?php echo the_content(); ?>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-5 col-lg-6">
           <figure id="totem">

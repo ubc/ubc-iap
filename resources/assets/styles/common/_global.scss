@@ -153,10 +153,10 @@ ol {
 
 .bg-image--header {
   > .container {
-    min-height: 538px;
+    min-height: 300px;
 
     @include media-breakpoint-up(md) {
-      min-height: 650px;
+      min-height: 450px;
     }
   }
 }
