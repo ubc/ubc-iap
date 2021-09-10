@@ -12221,71 +12221,71 @@
   #bootstrap_iso * {
     font-family: "Whitney SSm A", "Whitney SSm B", Arial, sans-serif !important; }
   /* line 5, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso h1 {
+  #bootstrap_iso h1, #bootstrap_iso .h1 {
     color: #002145;
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 2rem; }
     @media (min-width: 768px) {
       /* line 5, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h1 {
+      #bootstrap_iso h1, #bootstrap_iso .h1 {
         font-size: 80px; } }
     @media (min-width: 992px) {
       /* line 5, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h1 {
+      #bootstrap_iso h1, #bootstrap_iso .h1 {
         font-size: 95px; } }
     @media (min-width: 1400px) {
       /* line 5, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h1 {
+      #bootstrap_iso h1, #bootstrap_iso .h1 {
         font-size: 120px; } }
-  /* line 24, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso h2 {
+  /* line 25, resources/assets/styles/common/_global.scss */
+  #bootstrap_iso h2, #bootstrap_iso .h2 {
     color: #002145;
     font-size: 36px;
     line-height: 1;
     margin-bottom: 1rem; }
     @media (min-width: 768px) {
-      /* line 24, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h2 {
+      /* line 25, resources/assets/styles/common/_global.scss */
+      #bootstrap_iso h2, #bootstrap_iso .h2 {
         font-size: 40px; } }
     @media (min-width: 992px) {
-      /* line 24, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h2 {
+      /* line 25, resources/assets/styles/common/_global.scss */
+      #bootstrap_iso h2, #bootstrap_iso .h2 {
         font-size: 48px; } }
     @media (min-width: 1200px) {
-      /* line 24, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h2 {
+      /* line 25, resources/assets/styles/common/_global.scss */
+      #bootstrap_iso h2, #bootstrap_iso .h2 {
         font-size: 70px;
         margin-bottom: 2rem; } }
-  /* line 44, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso h3 {
+  /* line 46, resources/assets/styles/common/_global.scss */
+  #bootstrap_iso h3, #bootstrap_iso .h3 {
     color: #002145;
     font-size: 24px;
     line-height: 1.1;
     margin-bottom: 1rem; }
     @media (min-width: 768px) {
-      /* line 44, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h3 {
+      /* line 46, resources/assets/styles/common/_global.scss */
+      #bootstrap_iso h3, #bootstrap_iso .h3 {
         font-size: 28px; } }
     @media (min-width: 992px) {
-      /* line 44, resources/assets/styles/common/_global.scss */
-      #bootstrap_iso h3 {
+      /* line 46, resources/assets/styles/common/_global.scss */
+      #bootstrap_iso h3, #bootstrap_iso .h3 {
         font-size: 40px; } }
-  /* line 59, resources/assets/styles/common/_global.scss */
+  /* line 62, resources/assets/styles/common/_global.scss */
   #bootstrap_iso hr {
     border-top: 1px solid #4c4d4f;
     margin: 3rem 0; }
-    /* line 63, resources/assets/styles/common/_global.scss */
+    /* line 66, resources/assets/styles/common/_global.scss */
     #bootstrap_iso hr.white {
       border-color: white; }
-  /* line 68, resources/assets/styles/common/_global.scss */
+  /* line 71, resources/assets/styles/common/_global.scss */
   #bootstrap_iso a {
     color: inherit;
     text-decoration: underline; }
-    /* line 72, resources/assets/styles/common/_global.scss */
+    /* line 75, resources/assets/styles/common/_global.scss */
     #bootstrap_iso a:hover, #bootstrap_iso a:focus {
       text-decoration: none; }
-  /* line 78, resources/assets/styles/common/_global.scss */
+  /* line 81, resources/assets/styles/common/_global.scss */
   #bootstrap_iso p,
   #bootstrap_iso ul,
   #bootstrap_iso ol {
@@ -12294,45 +12294,45 @@
     line-height: 1.45;
     margin-bottom: 1.25rem; }
     @media (min-width: 992px) {
-      /* line 78, resources/assets/styles/common/_global.scss */
+      /* line 81, resources/assets/styles/common/_global.scss */
       #bootstrap_iso p,
       #bootstrap_iso ul,
       #bootstrap_iso ol {
         font-size: 22.5px; } }
     @media (min-width: 1200px) {
-      /* line 78, resources/assets/styles/common/_global.scss */
+      /* line 81, resources/assets/styles/common/_global.scss */
       #bootstrap_iso p,
       #bootstrap_iso ul,
       #bootstrap_iso ol {
         font-size: 25px; } }
-    /* line 94, resources/assets/styles/common/_global.scss */
+    /* line 97, resources/assets/styles/common/_global.scss */
     #bootstrap_iso p > li,
     #bootstrap_iso ul > li,
     #bootstrap_iso ol > li {
       line-height: 1.45;
       margin-bottom: 0.5rem; }
       @media (min-width: 992px) {
-        /* line 94, resources/assets/styles/common/_global.scss */
+        /* line 97, resources/assets/styles/common/_global.scss */
         #bootstrap_iso p > li,
         #bootstrap_iso ul > li,
         #bootstrap_iso ol > li {
           margin-bottom: 0.5rem; } }
-  /* line 104, resources/assets/styles/common/_global.scss */
+  /* line 107, resources/assets/styles/common/_global.scss */
   #bootstrap_iso ol {
     font-size: 17px;
     padding-left: 32.5px; }
     @media (min-width: 1200px) {
-      /* line 104, resources/assets/styles/common/_global.scss */
+      /* line 107, resources/assets/styles/common/_global.scss */
       #bootstrap_iso ol {
         font-size: 22px; } }
-    /* line 112, resources/assets/styles/common/_global.scss */
+    /* line 115, resources/assets/styles/common/_global.scss */
     #bootstrap_iso ol > li {
       margin-bottom: 0.75rem; }
-  /* line 117, resources/assets/styles/common/_global.scss */
+  /* line 120, resources/assets/styles/common/_global.scss */
   #bootstrap_iso ul,
   #bootstrap_iso ol {
     margin-left: 20px; }
-  /* line 122, resources/assets/styles/common/_global.scss */
+  /* line 125, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bg-horizontal {
     background-size: 80% auto !important;
     background-repeat: no-repeat !important;
@@ -12340,56 +12340,57 @@
     border: 12px solid #f0e9de;
     border-radius: 48px;
     padding-top: 50%; }
-  /* line 131, resources/assets/styles/common/_global.scss */
+  /* line 134, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bg-image {
     background: grey;
     background-size: cover;
     background-position: center; }
-  /* line 138, resources/assets/styles/common/_global.scss */
+  /* line 141, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bg-image--landing > .container {
     min-height: 538px; }
     @media (min-width: 768px) {
-      /* line 138, resources/assets/styles/common/_global.scss */
+      /* line 141, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bg-image--landing > .container {
         min-height: 60vh; } }
     @media (min-width: 992px) {
-      /* line 138, resources/assets/styles/common/_global.scss */
+      /* line 141, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bg-image--landing > .container {
         min-height: 90vh; } }
-  /* line 152, resources/assets/styles/common/_global.scss */
+  /* line 155, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bg-image--header > .container {
     min-height: 300px; }
     @media (min-width: 768px) {
-      /* line 152, resources/assets/styles/common/_global.scss */
+      /* line 155, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bg-image--header > .container {
         min-height: 450px; } }
-  /* line 161, resources/assets/styles/common/_global.scss */
+  /* line 164, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .breadcrumb {
     background: none;
     display: block;
     font-size: 25px;
     margin: 0;
     padding: 0;
-    text-transform: uppercase; }
-    /* line 169, resources/assets/styles/common/_global.scss */
+    text-transform: uppercase;
+    height: auto; }
+    /* line 173, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .breadcrumb a {
       color: #4c4d4f;
       text-decoration: none; }
       /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
       #bootstrap_iso .breadcrumb a:hover, #bootstrap_iso .breadcrumb a:focus {
         text-decoration: underline; }
-    /* line 178, resources/assets/styles/common/_global.scss */
+    /* line 182, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .breadcrumb .divider {
       color: #4c4d4f; }
-    /* line 182, resources/assets/styles/common/_global.scss */
+    /* line 186, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .breadcrumb .trail-end {
       color: #83503a; }
-    /* line 187, resources/assets/styles/common/_global.scss */
+    /* line 191, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .breadcrumb.white a,
     #bootstrap_iso .breadcrumb.white .divider,
     #bootstrap_iso .breadcrumb.white .trail-end {
       color: white; }
-  /* line 195, resources/assets/styles/common/_global.scss */
+  /* line 199, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .btn, #bootstrap_iso .comment-form input[type="submit"], #bootstrap_iso .search-form .search-submit {
     background: #002145;
     border: 4px solid #002145;
@@ -12404,11 +12405,11 @@
       background: white;
       color: #002145 !important; }
     @media (min-width: 992px) {
-      /* line 195, resources/assets/styles/common/_global.scss */
+      /* line 199, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .btn, #bootstrap_iso .comment-form input[type="submit"], #bootstrap_iso .search-form .search-submit {
         font-size: 36px;
         width: auto; } }
-  /* line 216, resources/assets/styles/common/_global.scss */
+  /* line 220, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .btn-card {
     background-image: url(/wp-content/themes/ubc-iap/dist/images/Animikii-Foundations-Background.jpg);
     background-position: calc(50%) calc(50%);
@@ -12424,19 +12425,19 @@
     min-height: 175px;
     text-align: center; }
     @media (min-width: 768px) {
-      /* line 216, resources/assets/styles/common/_global.scss */
+      /* line 220, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .btn-card {
         background-size: 100vw auto;
         min-height: 150px; } }
     @media (min-width: 992px) {
-      /* line 216, resources/assets/styles/common/_global.scss */
+      /* line 220, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .btn-card {
         min-height: 175px; } }
     @media (min-width: 1200px) {
-      /* line 216, resources/assets/styles/common/_global.scss */
+      /* line 220, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .btn-card {
         min-height: 240px; } }
-    /* line 244, resources/assets/styles/common/_global.scss */
+    /* line 248, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .btn-card::before {
       background: #002145;
       content: "";
@@ -12448,44 +12449,44 @@
       bottom: 0;
       left: 0;
       z-index: 1; }
-    /* line 257, resources/assets/styles/common/_global.scss */
+    /* line 261, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .btn-card > span {
       position: relative;
       z-index: 1; }
-    /* line 262, resources/assets/styles/common/_global.scss */
+    /* line 266, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .btn-card[data-index="0"] {
       background-position: calc(50% + 443px) calc(50%); }
-    /* line 266, resources/assets/styles/common/_global.scss */
+    /* line 270, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .btn-card[data-index="2"] {
       background-position: calc(50% - 443px) calc(50%); }
-    /* line 270, resources/assets/styles/common/_global.scss */
+    /* line 274, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .btn-card:hover, #bootstrap_iso .btn-card:focus {
       background: #002145;
       color: white !important; }
-  /* line 277, resources/assets/styles/common/_global.scss */
+  /* line 281, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-sub,
   #bootstrap_iso .bubble-mini {
     display: flex;
     align-items: start;
     margin: 0; }
     @media (min-width: 768px) {
-      /* line 277, resources/assets/styles/common/_global.scss */
+      /* line 281, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub,
       #bootstrap_iso .bubble-mini {
         display: block; } }
-    /* line 287, resources/assets/styles/common/_global.scss */
+    /* line 291, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-sub p,
     #bootstrap_iso .bubble-mini p {
       line-height: 1.2; }
   @media (min-width: 768px) {
-    /* line 292, resources/assets/styles/common/_global.scss */
+    /* line 296, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-sub {
       position: absolute;
       top: 17.5%;
       right: 17.5%;
       bottom: 17.5%;
       left: 17.5%; } }
-  /* line 301, resources/assets/styles/common/_global.scss */
+  /* line 305, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-sub::before {
     background: #f0e9de;
     content: "";
@@ -12497,24 +12498,24 @@
     left: 50%;
     z-index: -1; }
     @media (min-width: 768px) {
-      /* line 301, resources/assets/styles/common/_global.scss */
+      /* line 305, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         display: block;
         height: 135px; } }
     @media (min-width: 992px) {
-      /* line 301, resources/assets/styles/common/_global.scss */
+      /* line 305, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         height: 185px; } }
     @media (min-width: 1200px) {
-      /* line 301, resources/assets/styles/common/_global.scss */
+      /* line 305, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         height: 225px; } }
-  /* line 326, resources/assets/styles/common/_global.scss */
+  /* line 330, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-sub > .bubble-text {
     margin-top: 7.5px;
     padding-left: 15px; }
     @media (min-width: 768px) {
-      /* line 326, resources/assets/styles/common/_global.scss */
+      /* line 330, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text {
         margin-top: 0;
         padding-left: 0;
@@ -12524,25 +12525,25 @@
         bottom: 0;
         left: 0; } }
     @media (min-width: 768px) {
-      /* line 340, resources/assets/styles/common/_global.scss */
+      /* line 344, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text > div {
         margin-top: 37.5px;
         padding-left: 15px;
         transform: translateX(100%); } }
     @media (min-width: 1400px) {
-      /* line 340, resources/assets/styles/common/_global.scss */
+      /* line 344, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text > div {
         margin-top: 65px;
         padding-right: 30px; } }
   @media (min-width: 768px) {
-    /* line 355, resources/assets/styles/common/_global.scss */
+    /* line 359, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-mini {
       position: absolute;
       top: 35%;
       right: 35%;
       bottom: 35%;
       left: 35%; } }
-  /* line 364, resources/assets/styles/common/_global.scss */
+  /* line 368, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-mini::before {
     background: #f0e9de;
     content: "";
@@ -12554,20 +12555,20 @@
     left: 50%;
     z-index: -1; }
     @media (min-width: 768px) {
-      /* line 364, resources/assets/styles/common/_global.scss */
+      /* line 368, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini::before {
         display: block;
         height: 75px; } }
     @media (min-width: 992px) {
-      /* line 364, resources/assets/styles/common/_global.scss */
+      /* line 368, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini::before {
         height: 265px; } }
-  /* line 385, resources/assets/styles/common/_global.scss */
+  /* line 389, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-mini > .bubble-text {
     margin-top: 5px;
     padding-left: 15px; }
     @media (min-width: 768px) {
-      /* line 385, resources/assets/styles/common/_global.scss */
+      /* line 389, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini > .bubble-text {
         margin-top: 0;
         padding-left: 0;
@@ -12576,35 +12577,35 @@
         right: 0;
         bottom: 0;
         left: 0; } }
-    /* line 399, resources/assets/styles/common/_global.scss */
+    /* line 403, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-mini > .bubble-text > div {
       padding-left: 15px;
       margin-top: 5px; }
       @media (min-width: 768px) {
-        /* line 399, resources/assets/styles/common/_global.scss */
+        /* line 403, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           transform: translateX(81px);
           width: 175px; } }
       @media (min-width: 992px) {
-        /* line 399, resources/assets/styles/common/_global.scss */
+        /* line 403, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           transform: translateX(105px);
           width: 230px; } }
       @media (min-width: 1200px) {
-        /* line 399, resources/assets/styles/common/_global.scss */
+        /* line 403, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           margin-top: 15px;
           transform: translateX(135px);
           width: 250px; } }
       @media (min-width: 1400px) {
-        /* line 399, resources/assets/styles/common/_global.scss */
+        /* line 403, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           margin-top: 30px;
           transform: translateX(165px); } }
-  /* line 427, resources/assets/styles/common/_global.scss */
+  /* line 431, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave {
     margin-bottom: -1px; }
-    /* line 430, resources/assets/styles/common/_global.scss */
+    /* line 434, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave::after {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMTAwIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRjBFOURFIi8+DQo8L2c+DQo8L2c+DQo8ZGVmcz4NCjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iLTI2LjM1NyIgeT0iMCIgd2lkdGg9IjE4MTYuMDUiIGhlaWdodD0iMjA1LjA0OCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=);
       background-size: cover;
@@ -12614,16 +12615,16 @@
       height: 30px;
       width: 100%; }
       @media (min-width: 768px) {
-        /* line 430, resources/assets/styles/common/_global.scss */
+        /* line 434, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave::after {
           height: 5vw; } }
-    /* line 445, resources/assets/styles/common/_global.scss */
+    /* line 449, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave.white::after {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMTAwIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRkZGRkZGIi8+DQo8L2c+DQo8L2c+DQo8ZGVmcz4NCjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iLTI2LjM1NyIgeT0iMCIgd2lkdGg9IjE4MTYuMDUiIGhlaWdodD0iMjA1LjA0OCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=); }
-  /* line 451, resources/assets/styles/common/_global.scss */
+  /* line 455, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave--right {
     margin-bottom: -1px; }
-    /* line 454, resources/assets/styles/common/_global.scss */
+    /* line 458, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--right::after {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvZz4NCjwvZz4NCjxkZWZzPg0KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMTkiIHk9IjAiIHdpZHRoPSIxNzk3IiBoZWlnaHQ9IjQwMiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=);
       background-size: cover;
@@ -12632,16 +12633,16 @@
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 454, resources/assets/styles/common/_global.scss */
+        /* line 458, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave--right::after {
           height: 13vw; } }
-    /* line 467, resources/assets/styles/common/_global.scss */
+    /* line 471, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--right.white::after {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGRkZGRkYiLz4NCjwvZz4NCjwvZz4NCjxkZWZzPg0KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMTkiIHk9IjAiIHdpZHRoPSIxNzk3IiBoZWlnaHQ9IjQwMiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=); }
-  /* line 472, resources/assets/styles/common/_global.scss */
+  /* line 476, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave--left {
     margin-bottom: -1px; }
-    /* line 475, resources/assets/styles/common/_global.scss */
+    /* line 479, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--left::after {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTc1MyAwKSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNSAzOTJWMEMxMDMuNjEyIDAgNDc3LjI4MiA4LjIzNTc0IDk0My4wNjggNDEuMTc4N0MxNDA4Ljg1IDc0LjEyMTcgMTY4OS43NyAxNTYuODcxIDE3NzIgMTk0LjEyOFYzOTJILTI1WiIgZmlsbD0iI0YwRTlERSIvPg0KPC9nPg0KPC9nPg0KPGRlZnM+DQo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2kiIHg9Ii0yNSIgeT0iMCIgd2lkdGg9IjE3OTciIGhlaWdodD0iNDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+DQo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4NCjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPg0KPGZlT2Zmc2V0IGR5PSIxMCIvPg0KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iOSIvPg0KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPg0KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMyAwIi8+DQo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvdyIvPg0KPC9maWx0ZXI+DQo8L2RlZnM+DQo8L3N2Zz4NCg==);
       background-size: cover;
@@ -12650,13 +12651,13 @@
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 475, resources/assets/styles/common/_global.scss */
+        /* line 479, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave--left::after {
           height: 13vw; } }
-  /* line 489, resources/assets/styles/common/_global.scss */
+  /* line 493, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-left-rounded {
     background: white; }
-    /* line 492, resources/assets/styles/common/_global.scss */
+    /* line 496, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-left-rounded::before {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
       background-size: cover;
@@ -12665,13 +12666,13 @@
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 492, resources/assets/styles/common/_global.scss */
+        /* line 496, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-left-rounded::before {
           height: 5vw; } }
-  /* line 506, resources/assets/styles/common/_global.scss */
+  /* line 510, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-right-rounded {
     background: white; }
-    /* line 509, resources/assets/styles/common/_global.scss */
+    /* line 513, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-right-rounded::before {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
       background-size: cover;
@@ -12681,10 +12682,10 @@
       height: 45px;
       transform: scaleX(-1); }
       @media (min-width: 768px) {
-        /* line 509, resources/assets/styles/common/_global.scss */
+        /* line 513, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-right-rounded::before {
           height: 5vw; } }
-  /* line 525, resources/assets/styles/common/_global.scss */
+  /* line 529, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-ellipse::before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
     background-size: cover;
@@ -12696,11 +12697,11 @@
     position: relative;
     z-index: 1; }
     @media (min-width: 768px) {
-      /* line 525, resources/assets/styles/common/_global.scss */
+      /* line 529, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .clip-ellipse::before {
         height: 5vw;
         margin-bottom: calc(-5vw + 1px); } }
-  /* line 542, resources/assets/styles/common/_global.scss */
+  /* line 546, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-ellipse::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMjUiIHZpZXdCb3g9IjAgMCAxOTIwIDEyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMTAuODQ1VjEyNC4zNDVIMTkyMFYwQzE4NzUuNjggMTguODk1IDE2ODQuMTUgNjMuNTMwNCAxMjU2LjE1IDk2LjM0NUM4MjMuMTI5IDEyOS41NDUgMjM4LjI5MSAxMTkuODQ1IDAgMTEwLjg0NVoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
     background-size: cover;
@@ -12712,19 +12713,19 @@
     position: relative;
     z-index: 1; }
     @media (min-width: 768px) {
-      /* line 542, resources/assets/styles/common/_global.scss */
+      /* line 546, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .clip-ellipse::after {
         height: 13vw;
         margin-top: calc(-13vw + 2px); } }
   @media (min-width: 768px) {
-    /* line 596, resources/assets/styles/common/_global.scss */
+    /* line 600, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .columns-2 {
       column-count: 2;
       column-gap: 40px; } }
-  /* line 603, resources/assets/styles/common/_global.scss */
+  /* line 607, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .full-width-container > #container {
     padding: 0; }
-  /* line 607, resources/assets/styles/common/_global.scss */
+  /* line 611, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded {
     background: black;
     border-radius: 50%;
@@ -12733,19 +12734,19 @@
     margin: 0;
     position: relative;
     z-index: 1; }
-  /* line 617, resources/assets/styles/common/_global.scss */
+  /* line 621, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--text {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 50%;
     border: 12px solid #f0e9de;
     margin: 0;
     position: relative; }
-    /* line 624, resources/assets/styles/common/_global.scss */
+    /* line 628, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text::after {
       content: "";
       display: block;
       padding-top: 100%; }
-    /* line 630, resources/assets/styles/common/_global.scss */
+    /* line 634, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text > div {
       display: flex;
       flex-direction: column;
@@ -12758,41 +12759,41 @@
       left: 0;
       text-align: center; }
       @media (min-width: 768px) {
-        /* line 630, resources/assets/styles/common/_global.scss */
+        /* line 634, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 3rem 2rem 2rem; } }
       @media (min-width: 992px) {
-        /* line 630, resources/assets/styles/common/_global.scss */
+        /* line 634, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 4rem 2rem 4rem; } }
       @media (min-width: 1200px) {
-        /* line 630, resources/assets/styles/common/_global.scss */
+        /* line 634, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 4rem; } }
       @media (min-width: 1400px) {
-        /* line 630, resources/assets/styles/common/_global.scss */
+        /* line 634, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 5rem 4rem 4rem; } }
-    /* line 659, resources/assets/styles/common/_global.scss */
+    /* line 663, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text p {
       font-size: 14px; }
       @media (min-width: 768px) {
-        /* line 659, resources/assets/styles/common/_global.scss */
+        /* line 663, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 15px; } }
       @media (min-width: 992px) {
-        /* line 659, resources/assets/styles/common/_global.scss */
+        /* line 663, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 16px; } }
       @media (min-width: 1200px) {
-        /* line 659, resources/assets/styles/common/_global.scss */
+        /* line 663, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 22px; } }
-    /* line 675, resources/assets/styles/common/_global.scss */
+    /* line 679, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text.blue {
       background: rgba(0, 33, 69, 0.75);
       border: 12px solid #002145; }
-  /* line 681, resources/assets/styles/common/_global.scss */
+  /* line 685, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--image {
     background: white;
     background-position: center;
@@ -12804,16 +12805,16 @@
     position: relative;
     width: 100px; }
     @media (min-width: 768px) {
-      /* line 681, resources/assets/styles/common/_global.scss */
+      /* line 685, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .img-rounded--image {
         border: 12px solid #f0e9de;
         width: auto; } }
-    /* line 697, resources/assets/styles/common/_global.scss */
+    /* line 701, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image::after {
       content: "";
       display: block;
       padding-top: 100%; }
-  /* line 704, resources/assets/styles/common/_global.scss */
+  /* line 708, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--image-sm {
     background: white;
     background-position: center;
@@ -12825,15 +12826,15 @@
     position: relative;
     width: 65px; }
     @media (min-width: 768px) {
-      /* line 704, resources/assets/styles/common/_global.scss */
+      /* line 708, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .img-rounded--image-sm {
         width: auto; } }
-    /* line 719, resources/assets/styles/common/_global.scss */
+    /* line 723, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image-sm::after {
       content: "";
       display: block;
       padding-top: 100%; }
-    /* line 725, resources/assets/styles/common/_global.scss */
+    /* line 729, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image-sm > div {
       margin-left: -15px;
       position: absolute;
@@ -12841,20 +12842,20 @@
       top: 22.5px;
       padding-left: 45px;
       width: 300px; }
-  /* line 735, resources/assets/styles/common/_global.scss */
+  /* line 739, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section {
     position: relative; }
-    /* line 739, resources/assets/styles/common/_global.scss */
+    /* line 743, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section > div:not(:first-child) {
       margin-top: 1.5rem; }
       @media (min-width: 768px) {
-        /* line 739, resources/assets/styles/common/_global.scss */
+        /* line 743, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section > div:not(:first-child) {
           margin-top: 0; } }
-  /* line 749, resources/assets/styles/common/_global.scss */
+  /* line 753, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--1 {
     position: relative; }
-    /* line 752, resources/assets/styles/common/_global.scss */
+    /* line 756, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1::before {
       background: #f0e9de;
       content: "";
@@ -12867,77 +12868,77 @@
       transform-origin: top center;
       z-index: 1; }
       @media (min-width: 768px) {
-        /* line 752, resources/assets/styles/common/_global.scss */
+        /* line 756, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           display: block;
           height: 700px;
           transform: rotateZ(-12deg) translate(0, 130px); } }
       @media (min-width: 992px) {
-        /* line 752, resources/assets/styles/common/_global.scss */
+        /* line 756, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           height: 970px;
           transform: rotateZ(-11deg) translate(0, 180px); } }
       @media (min-width: 1200px) {
-        /* line 752, resources/assets/styles/common/_global.scss */
+        /* line 756, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           height: 970px;
           transform: rotateZ(-12deg) translate(0, 225px); } }
     @media (min-width: 768px) {
-      /* line 782, resources/assets/styles/common/_global.scss */
+      /* line 786, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) {
         transform: rotateZ(50deg) translate(0, -150%); }
-        /* line 786, resources/assets/styles/common/_global.scss */
+        /* line 790, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) > figure {
           transform: rotateZ(-50deg); } }
     @media (min-width: 992px) {
-      /* line 782, resources/assets/styles/common/_global.scss */
+      /* line 786, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) {
         transform: rotateZ(50deg) translate(0, -150%); } }
     @media (min-width: 768px) {
-      /* line 797, resources/assets/styles/common/_global.scss */
+      /* line 801, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) {
         transform: rotateZ(95deg) translate(0, -150%); }
-        /* line 801, resources/assets/styles/common/_global.scss */
+        /* line 805, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) > figure {
           transform: rotateZ(-95deg); } }
     @media (min-width: 992px) {
-      /* line 797, resources/assets/styles/common/_global.scss */
+      /* line 801, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) {
         transform: rotateZ(95deg) translate(0, -150%); } }
     @media (min-width: 1200px) {
-      /* line 812, resources/assets/styles/common/_global.scss */
+      /* line 816, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) .bubble-text > div {
         padding-right: 40px; } }
     @media (min-width: 1400px) {
-      /* line 818, resources/assets/styles/common/_global.scss */
+      /* line 822, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) .bubble-text > div {
         padding-right: 0; } }
     @media (min-width: 768px) {
-      /* line 824, resources/assets/styles/common/_global.scss */
+      /* line 828, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) {
         transform: rotateZ(140deg) translate(0, -150%); }
-        /* line 828, resources/assets/styles/common/_global.scss */
+        /* line 832, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) > figure {
           transform: rotateZ(-140deg); } }
     @media (min-width: 992px) {
-      /* line 824, resources/assets/styles/common/_global.scss */
+      /* line 828, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) {
         transform: rotateZ(140deg) translate(0, -150%); } }
-    /* line 839, resources/assets/styles/common/_global.scss */
+    /* line 843, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
       padding-bottom: 85px; }
       @media (min-width: 768px) {
-        /* line 839, resources/assets/styles/common/_global.scss */
+        /* line 843, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
           transform: rotateZ(192.5deg) translate(0, -150%); }
-          /* line 845, resources/assets/styles/common/_global.scss */
+          /* line 849, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > div,
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > figure {
             transform: rotateZ(-192.5deg); }
-          /* line 850, resources/assets/styles/common/_global.scss */
+          /* line 854, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
             position: absolute;
             top: 27.5%;
@@ -12946,7 +12947,7 @@
             bottom: 27.5%;
             transform: translate(0, -330%) rotateZ(-192.5deg);
             z-index: -1; }
-            /* line 859, resources/assets/styles/common/_global.scss */
+            /* line 863, resources/assets/styles/common/_global.scss */
             #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini::before {
               background: #f0e9de;
               content: "";
@@ -12960,153 +12961,153 @@
               transform: rotateZ(192.5deg);
               transform-origin: top center; } }
       @media (min-width: 992px) {
-        /* line 839, resources/assets/styles/common/_global.scss */
+        /* line 843, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
           transform: rotateZ(192.5deg) translate(0, -150%); } }
-      /* line 879, resources/assets/styles/common/_global.scss */
+      /* line 883, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
         margin-top: 15px;
         position: absolute;
         bottom: 0; }
         @media (min-width: 768px) {
-          /* line 879, resources/assets/styles/common/_global.scss */
+          /* line 883, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
             bottom: auto; } }
         @media (min-width: 768px) {
-          /* line 888, resources/assets/styles/common/_global.scss */
+          /* line 892, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 90px;
             transform: translateX(-35px); } }
         @media (min-width: 992px) {
-          /* line 888, resources/assets/styles/common/_global.scss */
+          /* line 892, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 120px; } }
         @media (min-width: 1200px) {
-          /* line 888, resources/assets/styles/common/_global.scss */
+          /* line 892, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 145px; } }
       @media (min-width: 768px) {
-        /* line 905, resources/assets/styles/common/_global.scss */
+        /* line 909, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           margin-top: 195px;
           left: 0%;
           top: 100%;
           transform: translateX(40%); } }
       @media (min-width: 992px) {
-        /* line 905, resources/assets/styles/common/_global.scss */
+        /* line 909, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           margin-top: 255px; } }
       @media (min-width: 1200px) {
-        /* line 905, resources/assets/styles/common/_global.scss */
+        /* line 909, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           transform: translateX(45%);
           margin-top: 315px; } }
-    /* line 926, resources/assets/styles/common/_global.scss */
+    /* line 930, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1 > .img-rounded--text {
       z-index: 3; }
-      /* line 929, resources/assets/styles/common/_global.scss */
+      /* line 933, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
         padding: 4rem; }
         @media (min-width: 768px) {
-          /* line 929, resources/assets/styles/common/_global.scss */
+          /* line 933, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
             padding: 1rem; } }
         @media (min-width: 992px) {
-          /* line 929, resources/assets/styles/common/_global.scss */
+          /* line 933, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
             padding: 4rem; } }
   @media (min-width: 768px) {
-    /* line 943, resources/assets/styles/common/_global.scss */
+    /* line 947, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 {
       margin-top: 550px; } }
   @media (min-width: 992px) {
-    /* line 943, resources/assets/styles/common/_global.scss */
+    /* line 947, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 {
       margin-top: 800px; } }
-  /* line 952, resources/assets/styles/common/_global.scss */
+  /* line 956, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .img-rounded--text {
     opacity: 0; }
-  /* line 956, resources/assets/styles/common/_global.scss */
+  /* line 960, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .bubble-sub {
     z-index: 2; }
-    /* line 959, resources/assets/styles/common/_global.scss */
+    /* line 963, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-sub::before {
       display: none; }
     @media (min-width: 768px) {
-      /* line 963, resources/assets/styles/common/_global.scss */
+      /* line 967, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 55px; } }
     @media (min-width: 992px) {
-      /* line 963, resources/assets/styles/common/_global.scss */
+      /* line 967, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 95px; } }
     @media (min-width: 1200px) {
-      /* line 963, resources/assets/styles/common/_global.scss */
+      /* line 967, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 105px; } }
   @media (min-width: 768px) {
-    /* line 979, resources/assets/styles/common/_global.scss */
+    /* line 983, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) {
       transform: rotateZ(5deg) translate(0, -200%); }
-      /* line 983, resources/assets/styles/common/_global.scss */
+      /* line 987, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) > figure {
         transform: rotateZ(-5deg); } }
   @media (min-width: 768px) {
-    /* line 990, resources/assets/styles/common/_global.scss */
+    /* line 994, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) {
       transform: rotateZ(60deg) translate(0, -200%); }
-      /* line 994, resources/assets/styles/common/_global.scss */
+      /* line 998, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) > figure {
         transform: rotateZ(-60deg); } }
   @media (min-width: 768px) {
-    /* line 1001, resources/assets/styles/common/_global.scss */
+    /* line 1005, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) {
       transform: rotateZ(135deg) translate(0, -200%); }
-      /* line 1005, resources/assets/styles/common/_global.scss */
+      /* line 1009, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) > figure {
         transform: rotateZ(-135deg); } }
   @media (min-width: 768px) {
-    /* line 1012, resources/assets/styles/common/_global.scss */
+    /* line 1016, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) {
       transform: rotateZ(215deg) translate(0, -200%); }
-      /* line 1016, resources/assets/styles/common/_global.scss */
+      /* line 1020, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) > figure {
         transform: rotateZ(-215deg); } }
   @media (min-width: 768px) {
-    /* line 1022, resources/assets/styles/common/_global.scss */
+    /* line 1026, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) .bubble-text > div {
       margin-top: 60px;
       margin-left: -10px; } }
   @media (min-width: 992px) {
-    /* line 1022, resources/assets/styles/common/_global.scss */
+    /* line 1026, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) .bubble-text > div {
       margin-top: 60px;
       margin-left: 0; } }
   @media (min-width: 768px) {
-    /* line 1035, resources/assets/styles/common/_global.scss */
+    /* line 1039, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) {
       transform: rotateZ(255deg) translate(0, -200%); }
-      /* line 1039, resources/assets/styles/common/_global.scss */
+      /* line 1043, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) > figure {
         transform: rotateZ(-255deg); } }
   @media (min-width: 768px) {
-    /* line 1046, resources/assets/styles/common/_global.scss */
+    /* line 1050, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) {
       transform: rotateZ(285deg) translate(0, -200%); }
-      /* line 1050, resources/assets/styles/common/_global.scss */
+      /* line 1054, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > figure {
         transform: rotateZ(-285deg); } }
-  /* line 1056, resources/assets/styles/common/_global.scss */
+  /* line 1060, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
     margin-top: -55px; }
     @media (min-width: 768px) {
-      /* line 1056, resources/assets/styles/common/_global.scss */
+      /* line 1060, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 25px;
         padding-left: 0;
@@ -13114,21 +13115,21 @@
         transform: translateX(-100%);
         text-align: right; } }
     @media (min-width: 992px) {
-      /* line 1056, resources/assets/styles/common/_global.scss */
+      /* line 1060, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 45px; } }
     @media (min-width: 1200px) {
-      /* line 1056, resources/assets/styles/common/_global.scss */
+      /* line 1060, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 55px; } }
-  /* line 1079, resources/assets/styles/common/_global.scss */
+  /* line 1083, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .landing-heading {
     position: relative; }
-    /* line 1082, resources/assets/styles/common/_global.scss */
+    /* line 1086, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .landing-heading > span {
       position: relative;
       z-index: 1; }
-    /* line 1087, resources/assets/styles/common/_global.scss */
+    /* line 1091, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .landing-heading::before {
       background: rgba(255, 255, 255, 0.6);
       content: "";
@@ -13137,7 +13138,7 @@
       right: -15px;
       bottom: -5px;
       left: -50vw; }
-  /* line 1098, resources/assets/styles/common/_global.scss */
+  /* line 1102, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #lightbox {
     background: rgba(0, 0, 0, 0.9);
     display: flex;
@@ -13152,11 +13153,11 @@
     left: 0;
     transition: 1s;
     z-index: 1000; }
-    /* line 1113, resources/assets/styles/common/_global.scss */
+    /* line 1117, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #lightbox.state-active {
       opacity: 1;
       pointer-events: auto; }
-    /* line 1118, resources/assets/styles/common/_global.scss */
+    /* line 1122, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #lightbox::before {
       color: white;
       content: "\D7";
@@ -13165,7 +13166,7 @@
       position: absolute;
       top: 15px;
       right: 30px; }
-  /* line 1130, resources/assets/styles/common/_global.scss */
+  /* line 1134, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-diagonal-left::before {
     background: #f0e9de;
     content: "";
@@ -13178,20 +13179,20 @@
     transform-origin: top center;
     width: 12px; }
     @media (min-width: 768px) {
-      /* line 1130, resources/assets/styles/common/_global.scss */
+      /* line 1134, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         display: block; } }
     @media (min-width: 992px) {
-      /* line 1130, resources/assets/styles/common/_global.scss */
+      /* line 1134, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         height: 165px;
         transform: rotate(44deg); } }
     @media (min-width: 1200px) {
-      /* line 1130, resources/assets/styles/common/_global.scss */
+      /* line 1134, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         height: 195px;
         transform: rotate(50.5deg); } }
-  /* line 1159, resources/assets/styles/common/_global.scss */
+  /* line 1163, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-diagonal-right::before {
     background: #f0e9de;
     content: "";
@@ -13202,25 +13203,25 @@
     transform-origin: top center;
     width: 12px; }
     @media (min-width: 768px) {
-      /* line 1159, resources/assets/styles/common/_global.scss */
+      /* line 1163, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         display: block;
         height: 165px;
         transform: rotate(-41deg) translate(0, 117px); } }
     @media (min-width: 992px) {
-      /* line 1159, resources/assets/styles/common/_global.scss */
+      /* line 1163, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         height: 200px;
         transform: rotate(-43.5deg) translate(0, 158px); } }
     @media (min-width: 1200px) {
-      /* line 1159, resources/assets/styles/common/_global.scss */
+      /* line 1163, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         height: 180px;
         transform: rotate(-54.5deg) translate(0, 200px); } }
-  /* line 1187, resources/assets/styles/common/_global.scss */
+  /* line 1191, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-horizontal-left {
     position: relative; }
-    /* line 1190, resources/assets/styles/common/_global.scss */
+    /* line 1194, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-horizontal-left::before {
       background: #f0e9de;
       content: "";
@@ -13231,18 +13232,18 @@
       left: -20px;
       width: 100px; }
       @media (min-width: 768px) {
-        /* line 1190, resources/assets/styles/common/_global.scss */
+        /* line 1194, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           display: block; } }
       @media (min-width: 992px) {
-        /* line 1190, resources/assets/styles/common/_global.scss */
+        /* line 1194, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           margin-top: 27px; } }
       @media (min-width: 1200px) {
-        /* line 1190, resources/assets/styles/common/_global.scss */
+        /* line 1194, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           margin-top: 55px; } }
-  /* line 1215, resources/assets/styles/common/_global.scss */
+  /* line 1219, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-horizontal-right::before {
     background: #f0e9de;
     content: "";
@@ -13252,25 +13253,25 @@
     margin-right: -60px;
     margin-bottom: 1rem; }
     @media (min-width: 768px) {
-      /* line 1215, resources/assets/styles/common/_global.scss */
+      /* line 1219, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         display: block; } }
     @media (min-width: 992px) {
-      /* line 1215, resources/assets/styles/common/_global.scss */
+      /* line 1219, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         margin-top: 85px; } }
     @media (min-width: 1200px) {
-      /* line 1215, resources/assets/styles/common/_global.scss */
+      /* line 1219, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         margin-top: 112.5px; } }
   @media (min-width: 768px) {
-    /* line 1238, resources/assets/styles/common/_global.scss */
+    /* line 1242, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-right {
       border-right: 12px solid #f0e9de; } }
-  /* line 1244, resources/assets/styles/common/_global.scss */
+  /* line 1248, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-right-reduced {
     position: relative; }
-    /* line 1247, resources/assets/styles/common/_global.scss */
+    /* line 1251, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-right-reduced::before {
       background: #f0e9de;
       content: "";
@@ -13281,42 +13282,42 @@
       width: 12px;
       height: 110px; }
       @media (min-width: 768px) {
-        /* line 1247, resources/assets/styles/common/_global.scss */
+        /* line 1251, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           display: block; } }
       @media (min-width: 992px) {
-        /* line 1247, resources/assets/styles/common/_global.scss */
+        /* line 1251, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           height: 140px; } }
       @media (min-width: 1200px) {
-        /* line 1247, resources/assets/styles/common/_global.scss */
+        /* line 1251, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           height: 170px; } }
-  /* line 1271, resources/assets/styles/common/_global.scss */
+  /* line 1275, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .main {
     overflow: hidden; }
-  /* line 1275, resources/assets/styles/common/_global.scss */
+  /* line 1279, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .pagination {
     font-size: 24px;
     justify-content: center; }
-    /* line 1279, resources/assets/styles/common/_global.scss */
+    /* line 1283, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination a {
       text-decoration: none; }
       /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
       #bootstrap_iso .pagination a:hover, #bootstrap_iso .pagination a:focus {
         text-decoration: underline; }
-    /* line 1287, resources/assets/styles/common/_global.scss */
+    /* line 1291, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination .current {
       color: #83503a; }
-    /* line 1291, resources/assets/styles/common/_global.scss */
+    /* line 1295, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination .page-numbers {
       margin: 0 2.5px; }
-  /* line 1296, resources/assets/styles/common/_global.scss */
+  /* line 1300, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .pre-footer {
     background-image: url(/wp-content/themes/ubc-iap/dist/images/Animikii-UBC-Campus.jpg);
     color: white;
     position: relative; }
-    /* line 1301, resources/assets/styles/common/_global.scss */
+    /* line 1305, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer::before {
       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkyMCAwTDE5MjAgMTcuOTk5OUMxODI2LjEyIDguNDk5OTUgMTQ5Mi4wOCAtNC44MDAwNSA5MDYuOTcyIDE3Ljk5OTlDMzIxLjg2OCA0MC43OTk5IDU4LjUzMDUgMTIwLjE2NyAwIDE1N1YwSDE5MjBaIiBmaWxsPSIjRkZGRkZGIi8+DQo8L3N2Zz4NCg==);
       background-size: cover;
@@ -13327,7 +13328,7 @@
       height: 10vw;
       width: 100%;
       z-index: 1; }
-    /* line 1313, resources/assets/styles/common/_global.scss */
+    /* line 1317, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer::after {
       background: #002145;
       content: "";
@@ -13339,64 +13340,64 @@
       bottom: 0;
       left: 0;
       z-index: 0; }
-    /* line 1326, resources/assets/styles/common/_global.scss */
+    /* line 1330, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer > .container {
       position: relative;
       z-index: 1; }
-  /* line 1332, resources/assets/styles/common/_global.scss */
+  /* line 1336, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .row::after,
   #bootstrap_iso .row::before {
     display: none; }
   @media (min-width: 768px) {
-    /* line 1337, resources/assets/styles/common/_global.scss */
+    /* line 1341, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .row-bubble + .row-bubble {
       margin-top: -2rem !important; } }
-  /* line 1345, resources/assets/styles/common/_global.scss */
+  /* line 1349, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .row-bubble .line-horizontal-right p,
   #bootstrap_iso .row-bubble .line-horizontal-right ol,
   #bootstrap_iso .row-bubble .line-horizontal-right ul {
     font-size: 24px;
     margin-bottom: 0.5rem; }
     @media (min-width: 992px) {
-      /* line 1345, resources/assets/styles/common/_global.scss */
+      /* line 1349, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .row-bubble .line-horizontal-right p,
       #bootstrap_iso .row-bubble .line-horizontal-right ol,
       #bootstrap_iso .row-bubble .line-horizontal-right ul {
         font-size: 32px; } }
     @media (min-width: 1200px) {
-      /* line 1345, resources/assets/styles/common/_global.scss */
+      /* line 1349, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .row-bubble .line-horizontal-right p,
       #bootstrap_iso .row-bubble .line-horizontal-right ol,
       #bootstrap_iso .row-bubble .line-horizontal-right ul {
         font-size: 40px; } }
-    /* line 1359, resources/assets/styles/common/_global.scss */
+    /* line 1363, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .row-bubble .line-horizontal-right p > li,
     #bootstrap_iso .row-bubble .line-horizontal-right ol > li,
     #bootstrap_iso .row-bubble .line-horizontal-right ul > li {
       line-height: 1.3; }
-  /* line 1367, resources/assets/styles/common/_global.scss */
+  /* line 1371, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .section-header > .container {
     height: 120px; }
     @media (min-width: 768px) {
-      /* line 1367, resources/assets/styles/common/_global.scss */
+      /* line 1371, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 225px; } }
     @media (min-width: 992px) {
-      /* line 1367, resources/assets/styles/common/_global.scss */
+      /* line 1371, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 295px; } }
     @media (min-width: 1200px) {
-      /* line 1367, resources/assets/styles/common/_global.scss */
+      /* line 1371, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 350px; } }
     @media (min-width: 1400px) {
-      /* line 1367, resources/assets/styles/common/_global.scss */
+      /* line 1371, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 450px; } }
-  /* line 1388, resources/assets/styles/common/_global.scss */
+  /* line 1392, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .small {
     font-size: 20px; }
-  /* line 1392, resources/assets/styles/common/_global.scss */
+  /* line 1396, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .text-white h1,
   #bootstrap_iso .text-white h2,
   #bootstrap_iso .text-white h3,
@@ -13405,10 +13406,10 @@
   #bootstrap_iso .text-white ol,
   #bootstrap_iso .text-white ul {
     color: white; }
-  /* line 1402, resources/assets/styles/common/_global.scss */
+  /* line 1406, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #totem {
     height: 1060px; }
-    /* line 1405, resources/assets/styles/common/_global.scss */
+    /* line 1409, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem > div {
       pointer-events: none;
       position: absolute;
@@ -13420,38 +13421,38 @@
       z-index: 2;
       width: 985px; }
       @media (min-width: 768px) {
-        /* line 1405, resources/assets/styles/common/_global.scss */
+        /* line 1409, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -5px;
           width: 1110px; } }
       @media (min-width: 992px) {
-        /* line 1405, resources/assets/styles/common/_global.scss */
+        /* line 1409, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -5px;
           transform: translateX(-46%);
           width: 1200px; } }
       @media (min-width: 1200px) {
-        /* line 1405, resources/assets/styles/common/_global.scss */
+        /* line 1409, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -30px;
           transform: translateX(-47%);
           width: 1300px; } }
-      /* line 1433, resources/assets/styles/common/_global.scss */
+      /* line 1437, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div:first-of-type {
         z-index: 3; }
-      /* line 1437, resources/assets/styles/common/_global.scss */
+      /* line 1441, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div:last-of-type {
         z-index: 1; }
-      /* line 1443, resources/assets/styles/common/_global.scss */
+      /* line 1447, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div svg:hover .totem-part, #bootstrap_iso #totem > div svg:focus .totem-part {
         opacity: 1; }
-  /* line 1452, resources/assets/styles/common/_global.scss */
+  /* line 1456, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #totem-list > li {
     display: flex;
     align-items: start;
     position: relative;
     transition: 1s; }
-    /* line 1458, resources/assets/styles/common/_global.scss */
+    /* line 1462, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li::before {
       background: white;
       content: "";
@@ -13463,51 +13464,51 @@
       bottom: -10px;
       left: -15px;
       z-index: -1; }
-    /* line 1471, resources/assets/styles/common/_global.scss */
+    /* line 1475, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li > span:first-of-type {
       color: #002145;
       font-size: 20px;
       flex-shrink: 0;
       width: 35px; }
       @media (min-width: 992px) {
-        /* line 1471, resources/assets/styles/common/_global.scss */
+        /* line 1475, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:first-of-type {
           font-size: 25px; } }
-    /* line 1482, resources/assets/styles/common/_global.scss */
+    /* line 1486, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li > span:last-of-type {
       font-size: 16px;
       margin-top: 4px; }
       @media (min-width: 992px) {
-        /* line 1482, resources/assets/styles/common/_global.scss */
+        /* line 1486, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 18px; } }
       @media (min-width: 1200px) {
-        /* line 1482, resources/assets/styles/common/_global.scss */
+        /* line 1486, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 20px; } }
       @media (min-width: 1400px) {
-        /* line 1482, resources/assets/styles/common/_global.scss */
+        /* line 1486, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 23px; } }
-    /* line 1499, resources/assets/styles/common/_global.scss */
+    /* line 1503, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li.state-hide {
       opacity: 0; }
-    /* line 1504, resources/assets/styles/common/_global.scss */
+    /* line 1508, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li.state-highlight::before {
       background: #f0e9de; }
-  /* line 1511, resources/assets/styles/common/_global.scss */
+  /* line 1515, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .totem-part {
     cursor: pointer;
     opacity: 0;
     pointer-events: auto;
     fill: #dacab5; }
-  /* line 1518, resources/assets/styles/common/_global.scss */
+  /* line 1522, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .vertical {
     display: block;
     margin-top: 3rem;
     opacity: 0.4; }
     @media (min-width: 768px) {
-      /* line 1518, resources/assets/styles/common/_global.scss */
+      /* line 1522, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .vertical {
         margin-top: 0;
         position: absolute;
@@ -13515,7 +13516,7 @@
         left: 0;
         transform: rotateZ(-90deg) translate(-50%);
         transform-origin: top left; } }
-  /* line 1534, resources/assets/styles/common/_global.scss */
+  /* line 1538, resources/assets/styles/common/_global.scss */
   #bootstrap_iso figure.aligncenter img {
     display: block;
     margin-left: auto;

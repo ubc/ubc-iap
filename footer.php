@@ -13,7 +13,7 @@
 		
 		<?php do_atomic( 'after_container' ); // hybrid_after_container ?>
 		
-<?php if (UBC_Collab_CLF::is_full_width()) { echo '</div>'; } ?>
+<?php if (UBC_Collab_CLF::is_full_width()) { echo '</div></div>'; } ?>
 	<?php do_atomic( 'before_footer' ); // hybrid_before_footer ?>
 
 	<?php do_atomic( 'footer' ); // hybrid_footer ?>

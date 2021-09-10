@@ -46,7 +46,7 @@
     
 	<?php do_atomic( 'after_header' ); // hybrid_after_header ?>
 	
-	<?php if (UBC_Collab_CLF::is_full_width()) { echo '<div class="full-width-container" style="margin:0;" >'; } ?>
+	<?php if (UBC_Collab_CLF::is_full_width()) { echo '<div>'; } ?>
 	
 	<div id="container">
 	
