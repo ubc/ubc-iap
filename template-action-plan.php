@@ -16,6 +16,7 @@ get_header(); // Loads the header.php template.
     margin-bottom: 32px!important;
     font-size: 40px; 
     text-decoration: none!important;
+    line-height: 1em;
   }
 
   .strategic-plan:hover, .strategic-plan:focus {
