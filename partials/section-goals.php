@@ -85,6 +85,12 @@
               border-radius: 100%;
               border: 4px solid white;
               box-shadow: 0px 4px 10px -2px black;
+
+              width: 100px;
+              height: 100px;
+              display: flex;
+              justify-content: center;
+              align-content: center;
             }
 
             @media(min-width: 1140px) {
