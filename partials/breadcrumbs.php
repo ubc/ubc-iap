@@ -1,5 +1,7 @@
 <?php
 
+$goalsPage = false;
+
 if(is_home()){
       $ancestors        = [];
       $current_parent   = null;
@@ -62,7 +64,7 @@ if(is_home()){
       </div>
 
       <?php
-        if($args['margin-bottom']): 
+        if(isset($args['margin-bottom'])): 
           $breadCrumbSpacing = $args['margin-bottom'];
         else: 
           $breadCrumbSpacing = "mb-5";

@@ -12477,16 +12477,27 @@
     /* line 291, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-sub p,
     #bootstrap_iso .bubble-mini p {
+      font-size: 16px;
       line-height: 1.2; }
+      @media (min-width: 992px) {
+        /* line 291, resources/assets/styles/common/_global.scss */
+        #bootstrap_iso .bubble-sub p,
+        #bootstrap_iso .bubble-mini p {
+          font-size: 20px; } }
+      @media (min-width: 1200px) {
+        /* line 291, resources/assets/styles/common/_global.scss */
+        #bootstrap_iso .bubble-sub p,
+        #bootstrap_iso .bubble-mini p {
+          font-size: 22.5px; } }
   @media (min-width: 768px) {
-    /* line 296, resources/assets/styles/common/_global.scss */
+    /* line 305, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-sub {
       position: absolute;
       top: 17.5%;
       right: 17.5%;
       bottom: 17.5%;
       left: 17.5%; } }
-  /* line 305, resources/assets/styles/common/_global.scss */
+  /* line 314, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-sub::before {
     background: #f0e9de;
     content: "";
@@ -12498,24 +12509,24 @@
     left: 50%;
     z-index: -1; }
     @media (min-width: 768px) {
-      /* line 305, resources/assets/styles/common/_global.scss */
+      /* line 314, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         display: block;
         height: 135px; } }
     @media (min-width: 992px) {
-      /* line 305, resources/assets/styles/common/_global.scss */
+      /* line 314, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         height: 185px; } }
     @media (min-width: 1200px) {
-      /* line 305, resources/assets/styles/common/_global.scss */
+      /* line 314, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub::before {
         height: 225px; } }
-  /* line 330, resources/assets/styles/common/_global.scss */
+  /* line 339, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-sub > .bubble-text {
     margin-top: 7.5px;
     padding-left: 15px; }
     @media (min-width: 768px) {
-      /* line 330, resources/assets/styles/common/_global.scss */
+      /* line 339, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text {
         margin-top: 0;
         padding-left: 0;
@@ -12525,25 +12536,25 @@
         bottom: 0;
         left: 0; } }
     @media (min-width: 768px) {
-      /* line 344, resources/assets/styles/common/_global.scss */
+      /* line 353, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text > div {
         margin-top: 37.5px;
         padding-left: 15px;
         transform: translateX(100%); } }
     @media (min-width: 1400px) {
-      /* line 344, resources/assets/styles/common/_global.scss */
+      /* line 353, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-sub > .bubble-text > div {
         margin-top: 65px;
         padding-right: 30px; } }
   @media (min-width: 768px) {
-    /* line 359, resources/assets/styles/common/_global.scss */
+    /* line 368, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-mini {
       position: absolute;
       top: 35%;
       right: 35%;
       bottom: 35%;
       left: 35%; } }
-  /* line 368, resources/assets/styles/common/_global.scss */
+  /* line 377, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-mini::before {
     background: #f0e9de;
     content: "";
@@ -12555,20 +12566,20 @@
     left: 50%;
     z-index: -1; }
     @media (min-width: 768px) {
-      /* line 368, resources/assets/styles/common/_global.scss */
+      /* line 377, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini::before {
         display: block;
         height: 75px; } }
     @media (min-width: 992px) {
-      /* line 368, resources/assets/styles/common/_global.scss */
+      /* line 377, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini::before {
         height: 265px; } }
-  /* line 389, resources/assets/styles/common/_global.scss */
+  /* line 398, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .bubble-mini > .bubble-text {
     margin-top: 5px;
     padding-left: 15px; }
     @media (min-width: 768px) {
-      /* line 389, resources/assets/styles/common/_global.scss */
+      /* line 398, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .bubble-mini > .bubble-text {
         margin-top: 0;
         padding-left: 0;
@@ -12577,37 +12588,36 @@
         right: 0;
         bottom: 0;
         left: 0; } }
-    /* line 403, resources/assets/styles/common/_global.scss */
+    /* line 412, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .bubble-mini > .bubble-text > div {
       padding-left: 15px;
       margin-top: 5px; }
       @media (min-width: 768px) {
-        /* line 403, resources/assets/styles/common/_global.scss */
+        /* line 412, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           transform: translateX(81px);
           width: 175px; } }
       @media (min-width: 992px) {
-        /* line 403, resources/assets/styles/common/_global.scss */
+        /* line 412, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           transform: translateX(105px);
           width: 230px; } }
       @media (min-width: 1200px) {
-        /* line 403, resources/assets/styles/common/_global.scss */
+        /* line 412, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
           margin-top: 15px;
           transform: translateX(135px);
           width: 250px; } }
       @media (min-width: 1400px) {
-        /* line 403, resources/assets/styles/common/_global.scss */
+        /* line 412, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .bubble-mini > .bubble-text > div {
-          margin-top: 30px;
-          transform: translateX(165px); } }
-  /* line 431, resources/assets/styles/common/_global.scss */
+          margin-top: 30px; } }
+  /* line 439, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave {
     margin-bottom: -1px; }
-    /* line 434, resources/assets/styles/common/_global.scss */
+    /* line 442, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave::after {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMTAwIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRjBFOURFIi8+DQo8L2c+DQo8L2c+DQo8ZGVmcz4NCjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iLTI2LjM1NyIgeT0iMCIgd2lkdGg9IjE4MTYuMDUiIGhlaWdodD0iMjA1LjA0OCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRjBFOURFIi8+CjwvZz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMjYuMzU3IiB5PSIwIiB3aWR0aD0iMTgxNi4wNSIgaGVpZ2h0PSIyMDUuMDQ4IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEwIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4zIDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==);
       background-size: cover;
       background-position: center top;
       content: "";
@@ -12615,66 +12625,66 @@
       height: 30px;
       width: 100%; }
       @media (min-width: 768px) {
-        /* line 434, resources/assets/styles/common/_global.scss */
+        /* line 442, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave::after {
           height: 5vw; } }
-    /* line 449, resources/assets/styles/common/_global.scss */
+    /* line 457, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave.white::after {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMTAwIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRkZGRkZGIi8+DQo8L2c+DQo8L2c+DQo8ZGVmcz4NCjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iLTI2LjM1NyIgeT0iMCIgd2lkdGg9IjE4MTYuMDUiIGhlaWdodD0iMjA1LjA0OCIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=); }
-  /* line 455, resources/assets/styles/common/_global.scss */
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIHZpZXdCb3g9IjAgMCAxNzUzIDEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIxMDAiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTS0yNi4zNTcgMTk1LjA0OFY2My43Nzk5QzEzNC44ODYgNDUuMDAyNyA1MDIuNzQ3IDcuNzU4MzUgODQzLjQyNSAwLjcyOTgwOEMxMTg0LjEgLTYuMjk4NzMgMTYyOS40OCAzOS4xNDU2IDE3ODkuNjkgNjMuNzc5OVYxOTUuMDQ4SC0yNi4zNTdaIiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMjYuMzU3IiB5PSIwIiB3aWR0aD0iMTgxNi4wNSIgaGVpZ2h0PSIyMDUuMDQ4IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEwIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4zIDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==); }
+  /* line 463, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave--right {
     margin-bottom: -1px; }
-    /* line 458, resources/assets/styles/common/_global.scss */
+    /* line 466, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--right::after {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvZz4NCjwvZz4NCjxkZWZzPg0KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMTkiIHk9IjAiIHdpZHRoPSIxNzk3IiBoZWlnaHQ9IjQwMiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiPgo8cmVjdCB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGMEU5REUiLz4KPC9nPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2kiIHg9Ii0xOSIgeT0iMCIgd2lkdGg9IjE3OTciIGhlaWdodD0iNDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEwIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4zIDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==);
       background-size: cover;
       background-position: center bottom;
       content: "";
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 458, resources/assets/styles/common/_global.scss */
+        /* line 466, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave--right::after {
           height: 13vw; } }
-    /* line 471, resources/assets/styles/common/_global.scss */
+    /* line 479, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--right.white::after {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGRkZGRkYiLz4NCjwvZz4NCjwvZz4NCjxkZWZzPg0KPGZpbHRlciBpZD0iZmlsdGVyMF9pIiB4PSItMTkiIHk9IjAiIHdpZHRoPSIxNzk3IiBoZWlnaHQ9IjQwMiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPg0KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4NCjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+DQo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4NCjxmZU9mZnNldCBkeT0iMTAiLz4NCjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4NCjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9ImFyaXRobWV0aWMiIGsyPSItMSIgazM9IjEiLz4NCjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo=); }
-  /* line 476, resources/assets/styles/common/_global.scss */
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiPgo8cmVjdCB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTTE3NzggMzkyVjBDMTY0OS4zOSAwIDEyNzUuNzIgOC4yMzU3NCA4MDkuOTMyIDQxLjE3ODdDMzQ0LjE0NiA3NC4xMjE3IDYzLjIzMzIgMTU2Ljg3MSAtMTkgMTk0LjEyOFYzOTJIMTc3OFoiIGZpbGw9IiNGRkZGRkYiLz4KPC9nPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2kiIHg9Ii0xOSIgeT0iMCIgd2lkdGg9IjE3OTciIGhlaWdodD0iNDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9InNoYXBlIi8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEwIi8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjkiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4zIDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9InNoYXBlIiByZXN1bHQ9ImVmZmVjdDFfaW5uZXJTaGFkb3ciLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==); }
+  /* line 484, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-bottom-concave--left {
     margin-bottom: -1px; }
-    /* line 479, resources/assets/styles/common/_global.scss */
+    /* line 487, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-bottom-concave--left::after {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE3NTMiIGhlaWdodD0iMjIxIj4NCjxyZWN0IHdpZHRoPSIxNzUzIiBoZWlnaHQ9IjIyMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMTc1MyAwKSIgZmlsbD0iI0M0QzRDNCIvPg0KPC9tYXNrPg0KPGcgbWFzaz0idXJsKCNtYXNrMCkiPg0KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfaSkiPg0KPHBhdGggZD0iTS0yNSAzOTJWMEMxMDMuNjEyIDAgNDc3LjI4MiA4LjIzNTc0IDk0My4wNjggNDEuMTc4N0MxNDA4Ljg1IDc0LjEyMTcgMTY4OS43NyAxNTYuODcxIDE3NzIgMTk0LjEyOFYzOTJILTI1WiIgZmlsbD0iI0YwRTlERSIvPg0KPC9nPg0KPC9nPg0KPGRlZnM+DQo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2kiIHg9Ii0yNSIgeT0iMCIgd2lkdGg9IjE3OTciIGhlaWdodD0iNDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+DQo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPg0KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4NCjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPg0KPGZlT2Zmc2V0IGR5PSIxMCIvPg0KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iOSIvPg0KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0iYXJpdGhtZXRpYyIgazI9Ii0xIiBrMz0iMSIvPg0KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMyAwIi8+DQo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvdyIvPg0KPC9maWx0ZXI+DQo8L2RlZnM+DQo8L3N2Zz4NCg==);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHZpZXdCb3g9IjAgMCAxNzUzIDIyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swIiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiPgo8cmVjdCB3aWR0aD0iMTc1MyIgaGVpZ2h0PSIyMjEiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDE3NTMgMCkiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2kpIj4KPHBhdGggZD0iTS0yNSAzOTJWMEMxMDMuNjEyIDAgNDc3LjI4MiA4LjIzNTc0IDk0My4wNjggNDEuMTc4N0MxNDA4Ljg1IDc0LjEyMTcgMTY4OS43NyAxNTYuODcxIDE3NzIgMTk0LjEyOFYzOTJILTI1WiIgZmlsbD0iI0YwRTlERSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfaSIgeD0iLTI1IiB5PSIwIiB3aWR0aD0iMTc5NyIgaGVpZ2h0PSI0MDIiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0ic2hhcGUiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iMTAiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iOSIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJhcml0aG1ldGljIiBrMj0iLTEiIGszPSIxIi8+CjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0ic2hhcGUiIHJlc3VsdD0iZWZmZWN0MV9pbm5lclNoYWRvdyIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K);
       background-size: cover;
       background-position: center top;
       content: "";
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 479, resources/assets/styles/common/_global.scss */
+        /* line 487, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-bottom-concave--left::after {
           height: 13vw; } }
-  /* line 493, resources/assets/styles/common/_global.scss */
+  /* line 501, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-left-rounded {
     background: white; }
-    /* line 496, resources/assets/styles/common/_global.scss */
+    /* line 504, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-left-rounded::before {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4wMDE0OCA3MEgwVjBIMTkyMFYzLjczMjE4QzE3NzMuMDYgMy4wNTM5NCAxMzgxLjE0IDQuMjQ5NSA5ODYuODI3IDE0LjQ1NDNDNTk3Ljc3MSAyNC41MjMxIDE3Ni40MTkgNTUuMjc3NCA3LjAwMTQ4IDcwWiIgZmlsbD0iI0YwRTlERSIvPgo8L3N2Zz4K);
       background-size: cover;
       background-position: center top;
       content: "";
       display: block;
       height: 45px; }
       @media (min-width: 768px) {
-        /* line 496, resources/assets/styles/common/_global.scss */
+        /* line 504, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-left-rounded::before {
           height: 5vw; } }
-  /* line 510, resources/assets/styles/common/_global.scss */
+  /* line 518, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-right-rounded {
     background: white; }
-    /* line 513, resources/assets/styles/common/_global.scss */
+    /* line 521, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .clip-right-rounded::before {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4wMDE0OCA3MEgwVjBIMTkyMFYzLjczMjE4QzE3NzMuMDYgMy4wNTM5NCAxMzgxLjE0IDQuMjQ5NSA5ODYuODI3IDE0LjQ1NDNDNTk3Ljc3MSAyNC41MjMxIDE3Ni40MTkgNTUuMjc3NCA3LjAwMTQ4IDcwWiIgZmlsbD0iI0YwRTlERSIvPgo8L3N2Zz4K);
       background-size: cover;
       background-position: center top;
       content: "";
@@ -12682,12 +12692,12 @@
       height: 45px;
       transform: scaleX(-1); }
       @media (min-width: 768px) {
-        /* line 513, resources/assets/styles/common/_global.scss */
+        /* line 521, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .clip-right-rounded::before {
           height: 5vw; } }
-  /* line 529, resources/assets/styles/common/_global.scss */
+  /* line 537, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-ellipse::before {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcuMDAxNDggNzBIMFYwSDE5MjBWMy43MzIxOEMxNzczLjA2IDMuMDUzOTQgMTM4MS4xNCA0LjI0OTUgOTg2LjgyNyAxNC40NTQzQzU5Ny43NzEgMjQuNTIzMSAxNzYuNDE5IDU1LjI3NzQgNy4wMDE0OCA3MFoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI3MCIgdmlld0JveD0iMCAwIDE5MjAgNzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNy4wMDE0OCA3MEgwVjBIMTkyMFYzLjczMjE4QzE3NzMuMDYgMy4wNTM5NCAxMzgxLjE0IDQuMjQ5NSA5ODYuODI3IDE0LjQ1NDNDNTk3Ljc3MSAyNC41MjMxIDE3Ni40MTkgNTUuMjc3NCA3LjAwMTQ4IDcwWiIgZmlsbD0iI0YwRTlERSIvPgo8L3N2Zz4K);
     background-size: cover;
     background-position: center top;
     content: "";
@@ -12697,13 +12707,13 @@
     position: relative;
     z-index: 1; }
     @media (min-width: 768px) {
-      /* line 529, resources/assets/styles/common/_global.scss */
+      /* line 537, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .clip-ellipse::before {
         height: 5vw;
         margin-bottom: calc(-5vw + 1px); } }
-  /* line 546, resources/assets/styles/common/_global.scss */
+  /* line 554, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .clip-ellipse::after {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMjUiIHZpZXdCb3g9IjAgMCAxOTIwIDEyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAxMTAuODQ1VjEyNC4zNDVIMTkyMFYwQzE4NzUuNjggMTguODk1IDE2ODQuMTUgNjMuNTMwNCAxMjU2LjE1IDk2LjM0NUM4MjMuMTI5IDEyOS41NDUgMjM4LjI5MSAxMTkuODQ1IDAgMTEwLjg0NVoiIGZpbGw9IiNGMEU5REUiLz4NCjwvc3ZnPg0K);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMjUiIHZpZXdCb3g9IjAgMCAxOTIwIDEyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDExMC44NDVWMTI0LjM0NUgxOTIwVjBDMTg3NS42OCAxOC44OTUgMTY4NC4xNSA2My41MzA0IDEyNTYuMTUgOTYuMzQ1QzgyMy4xMjkgMTI5LjU0NSAyMzguMjkxIDExOS44NDUgMCAxMTAuODQ1WiIgZmlsbD0iI0YwRTlERSIvPgo8L3N2Zz4K);
     background-size: cover;
     background-position: center top;
     content: "";
@@ -12713,19 +12723,19 @@
     position: relative;
     z-index: 1; }
     @media (min-width: 768px) {
-      /* line 546, resources/assets/styles/common/_global.scss */
+      /* line 554, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .clip-ellipse::after {
         height: 13vw;
         margin-top: calc(-13vw + 2px); } }
   @media (min-width: 768px) {
-    /* line 600, resources/assets/styles/common/_global.scss */
+    /* line 608, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .columns-2 {
       column-count: 2;
       column-gap: 40px; } }
-  /* line 607, resources/assets/styles/common/_global.scss */
+  /* line 615, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .full-width-container > #container {
     padding: 0; }
-  /* line 611, resources/assets/styles/common/_global.scss */
+  /* line 619, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded {
     background: black;
     border-radius: 50%;
@@ -12734,19 +12744,19 @@
     margin: 0;
     position: relative;
     z-index: 1; }
-  /* line 621, resources/assets/styles/common/_global.scss */
+  /* line 629, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--text {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 50%;
     border: 12px solid #f0e9de;
     margin: 0;
     position: relative; }
-    /* line 628, resources/assets/styles/common/_global.scss */
+    /* line 636, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text::after {
       content: "";
       display: block;
       padding-top: 100%; }
-    /* line 634, resources/assets/styles/common/_global.scss */
+    /* line 642, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text > div {
       display: flex;
       flex-direction: column;
@@ -12759,41 +12769,41 @@
       left: 0;
       text-align: center; }
       @media (min-width: 768px) {
-        /* line 634, resources/assets/styles/common/_global.scss */
+        /* line 642, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 3rem 2rem 2rem; } }
       @media (min-width: 992px) {
-        /* line 634, resources/assets/styles/common/_global.scss */
+        /* line 642, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 4rem 2rem 4rem; } }
       @media (min-width: 1200px) {
-        /* line 634, resources/assets/styles/common/_global.scss */
+        /* line 642, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 4rem; } }
       @media (min-width: 1400px) {
-        /* line 634, resources/assets/styles/common/_global.scss */
+        /* line 642, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text > div {
           padding: 5rem 4rem 4rem; } }
-    /* line 663, resources/assets/styles/common/_global.scss */
+    /* line 671, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text p {
       font-size: 14px; }
       @media (min-width: 768px) {
-        /* line 663, resources/assets/styles/common/_global.scss */
+        /* line 671, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 15px; } }
       @media (min-width: 992px) {
-        /* line 663, resources/assets/styles/common/_global.scss */
+        /* line 671, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 16px; } }
       @media (min-width: 1200px) {
-        /* line 663, resources/assets/styles/common/_global.scss */
+        /* line 671, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .img-rounded--text p {
           font-size: 22px; } }
-    /* line 679, resources/assets/styles/common/_global.scss */
+    /* line 687, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--text.blue {
       background: rgba(0, 33, 69, 0.75);
       border: 12px solid #002145; }
-  /* line 685, resources/assets/styles/common/_global.scss */
+  /* line 693, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--image {
     background: white;
     background-position: center;
@@ -12805,16 +12815,16 @@
     position: relative;
     width: 100px; }
     @media (min-width: 768px) {
-      /* line 685, resources/assets/styles/common/_global.scss */
+      /* line 693, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .img-rounded--image {
         border: 12px solid #f0e9de;
         width: auto; } }
-    /* line 701, resources/assets/styles/common/_global.scss */
+    /* line 709, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image::after {
       content: "";
       display: block;
       padding-top: 100%; }
-  /* line 708, resources/assets/styles/common/_global.scss */
+  /* line 716, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .img-rounded--image-sm {
     background: white;
     background-position: center;
@@ -12826,15 +12836,15 @@
     position: relative;
     width: 65px; }
     @media (min-width: 768px) {
-      /* line 708, resources/assets/styles/common/_global.scss */
+      /* line 716, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .img-rounded--image-sm {
         width: auto; } }
-    /* line 723, resources/assets/styles/common/_global.scss */
+    /* line 731, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image-sm::after {
       content: "";
       display: block;
       padding-top: 100%; }
-    /* line 729, resources/assets/styles/common/_global.scss */
+    /* line 737, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .img-rounded--image-sm > div {
       margin-left: -15px;
       position: absolute;
@@ -12842,20 +12852,20 @@
       top: 22.5px;
       padding-left: 45px;
       width: 300px; }
-  /* line 739, resources/assets/styles/common/_global.scss */
+  /* line 747, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section {
     position: relative; }
-    /* line 743, resources/assets/styles/common/_global.scss */
+    /* line 751, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section > div:not(:first-child) {
       margin-top: 1.5rem; }
       @media (min-width: 768px) {
-        /* line 743, resources/assets/styles/common/_global.scss */
+        /* line 751, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section > div:not(:first-child) {
           margin-top: 0; } }
-  /* line 753, resources/assets/styles/common/_global.scss */
+  /* line 761, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--1 {
     position: relative; }
-    /* line 756, resources/assets/styles/common/_global.scss */
+    /* line 764, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1::before {
       background: #f0e9de;
       content: "";
@@ -12868,77 +12878,77 @@
       transform-origin: top center;
       z-index: 1; }
       @media (min-width: 768px) {
-        /* line 756, resources/assets/styles/common/_global.scss */
+        /* line 764, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           display: block;
           height: 700px;
           transform: rotateZ(-12deg) translate(0, 130px); } }
       @media (min-width: 992px) {
-        /* line 756, resources/assets/styles/common/_global.scss */
+        /* line 764, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           height: 970px;
           transform: rotateZ(-11deg) translate(0, 180px); } }
       @media (min-width: 1200px) {
-        /* line 756, resources/assets/styles/common/_global.scss */
+        /* line 764, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1::before {
           height: 970px;
           transform: rotateZ(-12deg) translate(0, 225px); } }
     @media (min-width: 768px) {
-      /* line 786, resources/assets/styles/common/_global.scss */
+      /* line 794, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) {
         transform: rotateZ(50deg) translate(0, -150%); }
-        /* line 790, resources/assets/styles/common/_global.scss */
+        /* line 798, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) > figure {
           transform: rotateZ(-50deg); } }
     @media (min-width: 992px) {
-      /* line 786, resources/assets/styles/common/_global.scss */
+      /* line 794, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(1) {
         transform: rotateZ(50deg) translate(0, -150%); } }
     @media (min-width: 768px) {
-      /* line 801, resources/assets/styles/common/_global.scss */
+      /* line 809, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) {
         transform: rotateZ(95deg) translate(0, -150%); }
-        /* line 805, resources/assets/styles/common/_global.scss */
+        /* line 813, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) > figure {
           transform: rotateZ(-95deg); } }
     @media (min-width: 992px) {
-      /* line 801, resources/assets/styles/common/_global.scss */
+      /* line 809, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) {
         transform: rotateZ(95deg) translate(0, -150%); } }
     @media (min-width: 1200px) {
-      /* line 816, resources/assets/styles/common/_global.scss */
+      /* line 824, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) .bubble-text > div {
         padding-right: 40px; } }
     @media (min-width: 1400px) {
-      /* line 822, resources/assets/styles/common/_global.scss */
+      /* line 830, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(2) .bubble-text > div {
         padding-right: 0; } }
     @media (min-width: 768px) {
-      /* line 828, resources/assets/styles/common/_global.scss */
+      /* line 836, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) {
         transform: rotateZ(140deg) translate(0, -150%); }
-        /* line 832, resources/assets/styles/common/_global.scss */
+        /* line 840, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) > div,
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) > figure {
           transform: rotateZ(-140deg); } }
     @media (min-width: 992px) {
-      /* line 828, resources/assets/styles/common/_global.scss */
+      /* line 836, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(3) {
         transform: rotateZ(140deg) translate(0, -150%); } }
-    /* line 843, resources/assets/styles/common/_global.scss */
+    /* line 851, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
       padding-bottom: 85px; }
       @media (min-width: 768px) {
-        /* line 843, resources/assets/styles/common/_global.scss */
+        /* line 851, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
           transform: rotateZ(192.5deg) translate(0, -150%); }
-          /* line 849, resources/assets/styles/common/_global.scss */
+          /* line 857, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > div,
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > figure {
             transform: rotateZ(-192.5deg); }
-          /* line 854, resources/assets/styles/common/_global.scss */
+          /* line 862, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
             position: absolute;
             top: 27.5%;
@@ -12947,7 +12957,7 @@
             bottom: 27.5%;
             transform: translate(0, -330%) rotateZ(-192.5deg);
             z-index: -1; }
-            /* line 863, resources/assets/styles/common/_global.scss */
+            /* line 871, resources/assets/styles/common/_global.scss */
             #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini::before {
               background: #f0e9de;
               content: "";
@@ -12961,153 +12971,153 @@
               transform: rotateZ(192.5deg);
               transform-origin: top center; } }
       @media (min-width: 992px) {
-        /* line 843, resources/assets/styles/common/_global.scss */
+        /* line 851, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) {
           transform: rotateZ(192.5deg) translate(0, -150%); } }
-      /* line 883, resources/assets/styles/common/_global.scss */
+      /* line 891, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
         margin-top: 15px;
         position: absolute;
         bottom: 0; }
         @media (min-width: 768px) {
-          /* line 883, resources/assets/styles/common/_global.scss */
+          /* line 891, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini {
             bottom: auto; } }
         @media (min-width: 768px) {
-          /* line 892, resources/assets/styles/common/_global.scss */
+          /* line 900, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 90px;
             transform: translateX(-35px); } }
         @media (min-width: 992px) {
-          /* line 892, resources/assets/styles/common/_global.scss */
+          /* line 900, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 120px; } }
         @media (min-width: 1200px) {
-          /* line 892, resources/assets/styles/common/_global.scss */
+          /* line 900, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-mini .bubble-text > div {
             margin-top: 145px; } }
       @media (min-width: 768px) {
-        /* line 909, resources/assets/styles/common/_global.scss */
+        /* line 917, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           margin-top: 195px;
           left: 0%;
           top: 100%;
           transform: translateX(40%); } }
       @media (min-width: 992px) {
-        /* line 909, resources/assets/styles/common/_global.scss */
+        /* line 917, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           margin-top: 255px; } }
       @media (min-width: 1200px) {
-        /* line 909, resources/assets/styles/common/_global.scss */
+        /* line 917, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .graph-section--1 > .bubble-sub:nth-of-type(4) > .bubble-text > div {
           transform: translateX(45%);
           margin-top: 315px; } }
-    /* line 930, resources/assets/styles/common/_global.scss */
+    /* line 938, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--1 > .img-rounded--text {
       z-index: 3; }
-      /* line 933, resources/assets/styles/common/_global.scss */
+      /* line 941, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
         padding: 4rem; }
         @media (min-width: 768px) {
-          /* line 933, resources/assets/styles/common/_global.scss */
+          /* line 941, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
             padding: 1rem; } }
         @media (min-width: 992px) {
-          /* line 933, resources/assets/styles/common/_global.scss */
+          /* line 941, resources/assets/styles/common/_global.scss */
           #bootstrap_iso .graph-section--1 > .img-rounded--text > div {
             padding: 4rem; } }
   @media (min-width: 768px) {
-    /* line 947, resources/assets/styles/common/_global.scss */
+    /* line 955, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 {
       margin-top: 550px; } }
   @media (min-width: 992px) {
-    /* line 947, resources/assets/styles/common/_global.scss */
+    /* line 955, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 {
       margin-top: 800px; } }
-  /* line 956, resources/assets/styles/common/_global.scss */
+  /* line 964, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .img-rounded--text {
     opacity: 0; }
-  /* line 960, resources/assets/styles/common/_global.scss */
+  /* line 968, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .bubble-sub {
     z-index: 2; }
-    /* line 963, resources/assets/styles/common/_global.scss */
+    /* line 971, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-sub::before {
       display: none; }
     @media (min-width: 768px) {
-      /* line 967, resources/assets/styles/common/_global.scss */
+      /* line 975, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 55px; } }
     @media (min-width: 992px) {
-      /* line 967, resources/assets/styles/common/_global.scss */
+      /* line 975, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 95px; } }
     @media (min-width: 1200px) {
-      /* line 967, resources/assets/styles/common/_global.scss */
+      /* line 975, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-sub > .bubble-text > div {
         margin-top: 105px; } }
   @media (min-width: 768px) {
-    /* line 983, resources/assets/styles/common/_global.scss */
+    /* line 991, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) {
       transform: rotateZ(5deg) translate(0, -200%); }
-      /* line 987, resources/assets/styles/common/_global.scss */
+      /* line 995, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(2) > figure {
         transform: rotateZ(-5deg); } }
   @media (min-width: 768px) {
-    /* line 994, resources/assets/styles/common/_global.scss */
+    /* line 1002, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) {
       transform: rotateZ(60deg) translate(0, -200%); }
-      /* line 998, resources/assets/styles/common/_global.scss */
+      /* line 1006, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(3) > figure {
         transform: rotateZ(-60deg); } }
   @media (min-width: 768px) {
-    /* line 1005, resources/assets/styles/common/_global.scss */
+    /* line 1013, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) {
       transform: rotateZ(135deg) translate(0, -200%); }
-      /* line 1009, resources/assets/styles/common/_global.scss */
+      /* line 1017, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(4) > figure {
         transform: rotateZ(-135deg); } }
   @media (min-width: 768px) {
-    /* line 1016, resources/assets/styles/common/_global.scss */
+    /* line 1024, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) {
       transform: rotateZ(215deg) translate(0, -200%); }
-      /* line 1020, resources/assets/styles/common/_global.scss */
+      /* line 1028, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) > figure {
         transform: rotateZ(-215deg); } }
   @media (min-width: 768px) {
-    /* line 1026, resources/assets/styles/common/_global.scss */
+    /* line 1034, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) .bubble-text > div {
       margin-top: 60px;
       margin-left: -10px; } }
   @media (min-width: 992px) {
-    /* line 1026, resources/assets/styles/common/_global.scss */
+    /* line 1034, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(5) .bubble-text > div {
       margin-top: 60px;
       margin-left: 0; } }
   @media (min-width: 768px) {
-    /* line 1039, resources/assets/styles/common/_global.scss */
+    /* line 1047, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) {
       transform: rotateZ(255deg) translate(0, -200%); }
-      /* line 1043, resources/assets/styles/common/_global.scss */
+      /* line 1051, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(6) > figure {
         transform: rotateZ(-255deg); } }
   @media (min-width: 768px) {
-    /* line 1050, resources/assets/styles/common/_global.scss */
+    /* line 1058, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) {
       transform: rotateZ(285deg) translate(0, -200%); }
-      /* line 1054, resources/assets/styles/common/_global.scss */
+      /* line 1062, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > div,
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > figure {
         transform: rotateZ(-285deg); } }
-  /* line 1060, resources/assets/styles/common/_global.scss */
+  /* line 1068, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
     margin-top: -55px; }
     @media (min-width: 768px) {
-      /* line 1060, resources/assets/styles/common/_global.scss */
+      /* line 1068, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 25px;
         padding-left: 0;
@@ -13115,21 +13125,21 @@
         transform: translateX(-100%);
         text-align: right; } }
     @media (min-width: 992px) {
-      /* line 1060, resources/assets/styles/common/_global.scss */
+      /* line 1068, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 45px; } }
     @media (min-width: 1200px) {
-      /* line 1060, resources/assets/styles/common/_global.scss */
+      /* line 1068, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .graph-section--2 > .bubble-mini:nth-of-type(7) > .bubble-text > div {
         margin-top: 55px; } }
-  /* line 1083, resources/assets/styles/common/_global.scss */
+  /* line 1091, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .landing-heading {
     position: relative; }
-    /* line 1086, resources/assets/styles/common/_global.scss */
+    /* line 1094, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .landing-heading > span {
       position: relative;
       z-index: 1; }
-    /* line 1091, resources/assets/styles/common/_global.scss */
+    /* line 1099, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .landing-heading::before {
       background: rgba(255, 255, 255, 0.6);
       content: "";
@@ -13138,7 +13148,7 @@
       right: -15px;
       bottom: -5px;
       left: -50vw; }
-  /* line 1102, resources/assets/styles/common/_global.scss */
+  /* line 1110, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #lightbox {
     background: rgba(0, 0, 0, 0.9);
     display: flex;
@@ -13153,11 +13163,11 @@
     left: 0;
     transition: 1s;
     z-index: 1000; }
-    /* line 1117, resources/assets/styles/common/_global.scss */
+    /* line 1125, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #lightbox.state-active {
       opacity: 1;
       pointer-events: auto; }
-    /* line 1122, resources/assets/styles/common/_global.scss */
+    /* line 1130, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #lightbox::before {
       color: white;
       content: "\D7";
@@ -13166,7 +13176,7 @@
       position: absolute;
       top: 15px;
       right: 30px; }
-  /* line 1134, resources/assets/styles/common/_global.scss */
+  /* line 1142, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-diagonal-left::before {
     background: #f0e9de;
     content: "";
@@ -13179,20 +13189,20 @@
     transform-origin: top center;
     width: 12px; }
     @media (min-width: 768px) {
-      /* line 1134, resources/assets/styles/common/_global.scss */
+      /* line 1142, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         display: block; } }
     @media (min-width: 992px) {
-      /* line 1134, resources/assets/styles/common/_global.scss */
+      /* line 1142, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         height: 165px;
         transform: rotate(44deg); } }
     @media (min-width: 1200px) {
-      /* line 1134, resources/assets/styles/common/_global.scss */
+      /* line 1142, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-left::before {
         height: 195px;
         transform: rotate(50.5deg); } }
-  /* line 1163, resources/assets/styles/common/_global.scss */
+  /* line 1171, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-diagonal-right::before {
     background: #f0e9de;
     content: "";
@@ -13203,25 +13213,25 @@
     transform-origin: top center;
     width: 12px; }
     @media (min-width: 768px) {
-      /* line 1163, resources/assets/styles/common/_global.scss */
+      /* line 1171, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         display: block;
         height: 165px;
         transform: rotate(-41deg) translate(0, 117px); } }
     @media (min-width: 992px) {
-      /* line 1163, resources/assets/styles/common/_global.scss */
+      /* line 1171, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         height: 200px;
         transform: rotate(-43.5deg) translate(0, 158px); } }
     @media (min-width: 1200px) {
-      /* line 1163, resources/assets/styles/common/_global.scss */
+      /* line 1171, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-diagonal-right::before {
         height: 180px;
         transform: rotate(-54.5deg) translate(0, 200px); } }
-  /* line 1191, resources/assets/styles/common/_global.scss */
+  /* line 1199, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-horizontal-left {
     position: relative; }
-    /* line 1194, resources/assets/styles/common/_global.scss */
+    /* line 1202, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-horizontal-left::before {
       background: #f0e9de;
       content: "";
@@ -13232,18 +13242,18 @@
       left: -20px;
       width: 100px; }
       @media (min-width: 768px) {
-        /* line 1194, resources/assets/styles/common/_global.scss */
+        /* line 1202, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           display: block; } }
       @media (min-width: 992px) {
-        /* line 1194, resources/assets/styles/common/_global.scss */
+        /* line 1202, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           margin-top: 27px; } }
       @media (min-width: 1200px) {
-        /* line 1194, resources/assets/styles/common/_global.scss */
+        /* line 1202, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-horizontal-left::before {
           margin-top: 55px; } }
-  /* line 1219, resources/assets/styles/common/_global.scss */
+  /* line 1227, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-horizontal-right::before {
     background: #f0e9de;
     content: "";
@@ -13253,25 +13263,25 @@
     margin-right: -60px;
     margin-bottom: 1rem; }
     @media (min-width: 768px) {
-      /* line 1219, resources/assets/styles/common/_global.scss */
+      /* line 1227, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         display: block; } }
     @media (min-width: 992px) {
-      /* line 1219, resources/assets/styles/common/_global.scss */
+      /* line 1227, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         margin-top: 85px; } }
     @media (min-width: 1200px) {
-      /* line 1219, resources/assets/styles/common/_global.scss */
+      /* line 1227, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .line-horizontal-right::before {
         margin-top: 112.5px; } }
   @media (min-width: 768px) {
-    /* line 1242, resources/assets/styles/common/_global.scss */
+    /* line 1250, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-right {
       border-right: 12px solid #f0e9de; } }
-  /* line 1248, resources/assets/styles/common/_global.scss */
+  /* line 1256, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .line-right-reduced {
     position: relative; }
-    /* line 1251, resources/assets/styles/common/_global.scss */
+    /* line 1259, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .line-right-reduced::before {
       background: #f0e9de;
       content: "";
@@ -13282,44 +13292,45 @@
       width: 12px;
       height: 110px; }
       @media (min-width: 768px) {
-        /* line 1251, resources/assets/styles/common/_global.scss */
+        /* line 1259, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           display: block; } }
       @media (min-width: 992px) {
-        /* line 1251, resources/assets/styles/common/_global.scss */
+        /* line 1259, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           height: 140px; } }
       @media (min-width: 1200px) {
-        /* line 1251, resources/assets/styles/common/_global.scss */
+        /* line 1259, resources/assets/styles/common/_global.scss */
         #bootstrap_iso .line-right-reduced::before {
           height: 170px; } }
-  /* line 1275, resources/assets/styles/common/_global.scss */
+  /* line 1283, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .main {
     overflow: hidden; }
-  /* line 1279, resources/assets/styles/common/_global.scss */
+  /* line 1287, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .pagination {
     font-size: 24px;
     justify-content: center; }
-    /* line 1283, resources/assets/styles/common/_global.scss */
+    /* line 1291, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination a {
       text-decoration: none; }
       /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
       #bootstrap_iso .pagination a:hover, #bootstrap_iso .pagination a:focus {
         text-decoration: underline; }
-    /* line 1291, resources/assets/styles/common/_global.scss */
+    /* line 1299, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination .current {
       color: #83503a; }
-    /* line 1295, resources/assets/styles/common/_global.scss */
+    /* line 1303, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pagination .page-numbers {
       margin: 0 2.5px; }
-  /* line 1300, resources/assets/styles/common/_global.scss */
+  /* line 1308, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .pre-footer {
     background-image: url(/wp-content/themes/ubc-iap/dist/images/Animikii-UBC-Campus.jpg);
     color: white;
+    margin-top: -1px;
     position: relative; }
-    /* line 1305, resources/assets/styles/common/_global.scss */
+    /* line 1314, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer::before {
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkyMCAwTDE5MjAgMTcuOTk5OUMxODI2LjEyIDguNDk5OTUgMTQ5Mi4wOCAtNC44MDAwNSA5MDYuOTcyIDE3Ljk5OTlDMzIxLjg2OCA0MC43OTk5IDU4LjUzMDUgMTIwLjE2NyAwIDE1N1YwSDE5MjBaIiBmaWxsPSIjRkZGRkZGIi8+DQo8L3N2Zz4NCg==);
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOTIwIDBMMTkyMCAxNy45OTk5QzE4MjYuMTIgOC40OTk5NSAxNDkyLjA4IC00LjgwMDA1IDkwNi45NzIgMTcuOTk5OUMzMjEuODY4IDQwLjc5OTkgNTguNTMwNSAxMjAuMTY3IDAgMTU3VjBIMTkyMFoiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+Cg==);
       background-size: cover;
       background-position: center left;
       content: "";
@@ -13327,8 +13338,9 @@
       position: relative;
       height: 10vw;
       width: 100%;
+      transform: translateY(-1px);
       z-index: 1; }
-    /* line 1317, resources/assets/styles/common/_global.scss */
+    /* line 1327, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer::after {
       background: #002145;
       content: "";
@@ -13340,64 +13352,64 @@
       bottom: 0;
       left: 0;
       z-index: 0; }
-    /* line 1330, resources/assets/styles/common/_global.scss */
+    /* line 1340, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .pre-footer > .container {
       position: relative;
       z-index: 1; }
-  /* line 1336, resources/assets/styles/common/_global.scss */
+  /* line 1346, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .row::after,
   #bootstrap_iso .row::before {
     display: none; }
   @media (min-width: 768px) {
-    /* line 1341, resources/assets/styles/common/_global.scss */
+    /* line 1351, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .row-bubble + .row-bubble {
       margin-top: -2rem !important; } }
-  /* line 1349, resources/assets/styles/common/_global.scss */
+  /* line 1359, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .row-bubble .line-horizontal-right p,
   #bootstrap_iso .row-bubble .line-horizontal-right ol,
   #bootstrap_iso .row-bubble .line-horizontal-right ul {
     font-size: 24px;
     margin-bottom: 0.5rem; }
     @media (min-width: 992px) {
-      /* line 1349, resources/assets/styles/common/_global.scss */
+      /* line 1359, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .row-bubble .line-horizontal-right p,
       #bootstrap_iso .row-bubble .line-horizontal-right ol,
       #bootstrap_iso .row-bubble .line-horizontal-right ul {
         font-size: 32px; } }
     @media (min-width: 1200px) {
-      /* line 1349, resources/assets/styles/common/_global.scss */
+      /* line 1359, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .row-bubble .line-horizontal-right p,
       #bootstrap_iso .row-bubble .line-horizontal-right ol,
       #bootstrap_iso .row-bubble .line-horizontal-right ul {
         font-size: 40px; } }
-    /* line 1363, resources/assets/styles/common/_global.scss */
+    /* line 1373, resources/assets/styles/common/_global.scss */
     #bootstrap_iso .row-bubble .line-horizontal-right p > li,
     #bootstrap_iso .row-bubble .line-horizontal-right ol > li,
     #bootstrap_iso .row-bubble .line-horizontal-right ul > li {
       line-height: 1.3; }
-  /* line 1371, resources/assets/styles/common/_global.scss */
+  /* line 1381, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .section-header > .container {
     height: 120px; }
     @media (min-width: 768px) {
-      /* line 1371, resources/assets/styles/common/_global.scss */
+      /* line 1381, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 225px; } }
     @media (min-width: 992px) {
-      /* line 1371, resources/assets/styles/common/_global.scss */
+      /* line 1381, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 295px; } }
     @media (min-width: 1200px) {
-      /* line 1371, resources/assets/styles/common/_global.scss */
+      /* line 1381, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 350px; } }
     @media (min-width: 1400px) {
-      /* line 1371, resources/assets/styles/common/_global.scss */
+      /* line 1381, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .section-header > .container {
         height: 450px; } }
-  /* line 1392, resources/assets/styles/common/_global.scss */
+  /* line 1402, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .small {
     font-size: 20px; }
-  /* line 1396, resources/assets/styles/common/_global.scss */
+  /* line 1406, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .text-white h1,
   #bootstrap_iso .text-white h2,
   #bootstrap_iso .text-white h3,
@@ -13406,10 +13418,10 @@
   #bootstrap_iso .text-white ol,
   #bootstrap_iso .text-white ul {
     color: white; }
-  /* line 1406, resources/assets/styles/common/_global.scss */
+  /* line 1416, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #totem {
     height: 1060px; }
-    /* line 1409, resources/assets/styles/common/_global.scss */
+    /* line 1419, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem > div {
       pointer-events: none;
       position: absolute;
@@ -13421,38 +13433,38 @@
       z-index: 2;
       width: 985px; }
       @media (min-width: 768px) {
-        /* line 1409, resources/assets/styles/common/_global.scss */
+        /* line 1419, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -5px;
           width: 1110px; } }
       @media (min-width: 992px) {
-        /* line 1409, resources/assets/styles/common/_global.scss */
+        /* line 1419, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -5px;
           transform: translateX(-46%);
           width: 1200px; } }
       @media (min-width: 1200px) {
-        /* line 1409, resources/assets/styles/common/_global.scss */
+        /* line 1419, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem > div {
           top: -30px;
           transform: translateX(-47%);
           width: 1300px; } }
-      /* line 1437, resources/assets/styles/common/_global.scss */
+      /* line 1447, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div:first-of-type {
         z-index: 3; }
-      /* line 1441, resources/assets/styles/common/_global.scss */
+      /* line 1451, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div:last-of-type {
         z-index: 1; }
-      /* line 1447, resources/assets/styles/common/_global.scss */
+      /* line 1457, resources/assets/styles/common/_global.scss */
       #bootstrap_iso #totem > div svg:hover .totem-part, #bootstrap_iso #totem > div svg:focus .totem-part {
         opacity: 1; }
-  /* line 1456, resources/assets/styles/common/_global.scss */
+  /* line 1466, resources/assets/styles/common/_global.scss */
   #bootstrap_iso #totem-list > li {
     display: flex;
     align-items: start;
     position: relative;
     transition: 1s; }
-    /* line 1462, resources/assets/styles/common/_global.scss */
+    /* line 1472, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li::before {
       background: white;
       content: "";
@@ -13464,51 +13476,51 @@
       bottom: -10px;
       left: -15px;
       z-index: -1; }
-    /* line 1475, resources/assets/styles/common/_global.scss */
+    /* line 1485, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li > span:first-of-type {
       color: #002145;
       font-size: 20px;
       flex-shrink: 0;
       width: 35px; }
       @media (min-width: 992px) {
-        /* line 1475, resources/assets/styles/common/_global.scss */
+        /* line 1485, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:first-of-type {
           font-size: 25px; } }
-    /* line 1486, resources/assets/styles/common/_global.scss */
+    /* line 1496, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li > span:last-of-type {
       font-size: 16px;
       margin-top: 4px; }
       @media (min-width: 992px) {
-        /* line 1486, resources/assets/styles/common/_global.scss */
+        /* line 1496, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 18px; } }
       @media (min-width: 1200px) {
-        /* line 1486, resources/assets/styles/common/_global.scss */
+        /* line 1496, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 20px; } }
       @media (min-width: 1400px) {
-        /* line 1486, resources/assets/styles/common/_global.scss */
+        /* line 1496, resources/assets/styles/common/_global.scss */
         #bootstrap_iso #totem-list > li > span:last-of-type {
           font-size: 23px; } }
-    /* line 1503, resources/assets/styles/common/_global.scss */
+    /* line 1513, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li.state-hide {
       opacity: 0; }
-    /* line 1508, resources/assets/styles/common/_global.scss */
+    /* line 1518, resources/assets/styles/common/_global.scss */
     #bootstrap_iso #totem-list > li.state-highlight::before {
       background: #f0e9de; }
-  /* line 1515, resources/assets/styles/common/_global.scss */
+  /* line 1525, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .totem-part {
     cursor: pointer;
     opacity: 0;
     pointer-events: auto;
     fill: #dacab5; }
-  /* line 1522, resources/assets/styles/common/_global.scss */
+  /* line 1532, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .vertical {
     display: block;
     margin-top: 3rem;
     opacity: 0.4; }
     @media (min-width: 768px) {
-      /* line 1522, resources/assets/styles/common/_global.scss */
+      /* line 1532, resources/assets/styles/common/_global.scss */
       #bootstrap_iso .vertical {
         margin-top: 0;
         position: absolute;
@@ -13516,7 +13528,7 @@
         left: 0;
         transform: rotateZ(-90deg) translate(-50%);
         transform-origin: top left; } }
-  /* line 1538, resources/assets/styles/common/_global.scss */
+  /* line 1548, resources/assets/styles/common/_global.scss */
   #bootstrap_iso figure.aligncenter img {
     display: block;
     margin-left: auto;
@@ -13627,7 +13639,7 @@
     border: 12px solid #dacab5; }
   /* line 48, resources/assets/styles/layouts/_pages.scss */
   #bootstrap_iso .template-action-plan .goals-sub-header {
-    color: #4C4D4F !important; }
+    color: #4c4d4f !important; }
   /* line 52, resources/assets/styles/layouts/_pages.scss */
   #bootstrap_iso .template-action-plan .strategic-plan {
     display: block;
@@ -13655,33 +13667,33 @@
       /* line 11, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goals h2 {
         font-size: 48px; } }
-  /* line 30, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 28, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goals h3 {
     color: #471600;
     font-weight: 700;
     text-transform: uppercase; }
-  /* line 36, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 34, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goals .actions {
     padding-top: 20px;
-    /* Each Action has an associated colour*/ }
-    /* line 38, resources/assets/styles/layouts/_pages_goals.scss */
+    /* Each Action has an associated colour */ }
+    /* line 37, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action {
       position: relative;
       margin-left: 10px;
-      border-left: solid 5px #DACAB5;
+      border-left: solid 5px #dacab5;
       padding-left: 30px;
       margin-bottom: 0;
       padding-bottom: 20px; }
       @media (min-width: 768px) {
-        /* line 38, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 37, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goals .actions .action {
           padding-left: 40px; } }
       @media (min-width: 1200px) {
-        /* line 38, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 37, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goals .actions .action {
           border-left-width: 10px;
           padding-left: 50px; } }
-    /* line 57, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 55, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action-circle {
       position: absolute;
       width: 30px;
@@ -13690,77 +13702,77 @@
       top: 40%;
       left: -18px; }
       @media (min-width: 1200px) {
-        /* line 57, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 55, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goals .actions .action-circle {
           width: 40px;
           height: 40px;
           border-radius: 20px;
           left: -25px; } }
-    /* line 73, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 71, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions h4.action-number {
-      font-family: 'Whitney Semibold Regular' !important;
+      font-family: "Whitney Semibold Regular", sans-serif !important;
       font-weight: 200;
       font-size: 30px; }
       @media (min-width: 1200px) {
-        /* line 73, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 71, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goals .actions h4.action-number {
           font-size: 36px; } }
-    /* line 83, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 81, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action-text {
       margin: 0;
       padding-bottom: 20px;
       font-size: 14px; }
       @media (min-width: 768px) {
-        /* line 83, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 81, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goals .actions .action-text {
           font-size: 20px; } }
-    /* line 95, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 93, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+1) .action-number {
       color: #471600; }
-    /* line 99, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 97, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+1) .action-circle {
       background-color: #471600; }
-    /* line 105, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 103, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+2) .action-number {
       color: #714333; }
-    /* line 109, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 107, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+2) .action-circle {
       background-color: #714333; }
-    /* line 115, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 113, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+3) .action-number {
-      color: #8A7365; }
-    /* line 119, resources/assets/styles/layouts/_pages_goals.scss */
+      color: #8a7365; }
+    /* line 117, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+3) .action-circle {
-      background-color: #8A7365; }
-    /* line 125, resources/assets/styles/layouts/_pages_goals.scss */
+      background-color: #8a7365; }
+    /* line 123, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+4) .action-number {
       color: #895637; }
-    /* line 129, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 127, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+4) .action-circle {
       background-color: #895637; }
-    /* line 135, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 133, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+5) .action-number {
       color: #002145; }
-    /* line 139, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 137, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+5) .action-circle {
       background-color: #002145; }
-    /* line 145, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 143, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+6) .action-number {
       color: #895637; }
-    /* line 149, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 147, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+6) .action-circle {
       background-color: #895637; }
-    /* line 156, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 153, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+7) .action-number {
-      color: #8A7365; }
-    /* line 160, resources/assets/styles/layouts/_pages_goals.scss */
+      color: #8a7365; }
+    /* line 157, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals .actions .action:nth-of-type(7n+7) .action-circle {
-      background-color: #8A7365; }
-  /* line 170, resources/assets/styles/layouts/_pages_goals.scss */
+      background-color: #8a7365; }
+  /* line 165, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .quote-image {
     overflow: hidden;
     position: relative; }
-  /* line 175, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 170, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .quote-image .quote-clip {
     position: absolute;
     background: white;
@@ -13773,7 +13785,7 @@
     z-index: 2;
     left: 50%; }
     @media (min-width: 768px) {
-      /* line 175, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 170, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .quote-image .quote-clip {
         border-radius: 100%;
         width: 1000px;
@@ -13782,7 +13794,7 @@
         margin-left: -500px;
         bottom: -170px; } }
     @media (min-width: 992px) {
-      /* line 175, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 170, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .quote-image .quote-clip {
         border-radius: 100%;
         width: 600px;
@@ -13790,103 +13802,276 @@
         margin-top: -50px;
         margin-left: -300px;
         bottom: -170px; } }
-  /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 201, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-wrapper {
     position: relative;
     padding: 35px; }
     @media (min-width: 375px) {
-      /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 201, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
         padding: 20px 40px 60px 100px; } }
     @media (min-width: 768px) {
-      /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 201, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
         padding: 30px 40px 40px 80px; } }
     @media (min-width: 992px) {
-      /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 201, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
         padding: 40px 60px 40px 70px; } }
     @media (min-width: 1200px) {
-      /* line 206, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 201, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-wrapper {
         padding: 40px 50px 40px 80px; } }
-    /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 221, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .quotes {
-      font-family: 'Whitney Semibold Regular' !important;
+      font-family: "Whitney Semibold Regular", sans-serif !important;
       font-weight: 200;
       position: absolute;
       color: #471600;
       font-size: 40px;
       line-height: 1; }
       @media (min-width: 375px) {
-        /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 221, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .quotes {
           font-size: 150px; } }
       @media (min-width: 1200px) {
-        /* line 226, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 221, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .quotes {
           font-size: 150px; } }
-    /* line 243, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 238, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .leftquote {
       top: 5px;
       left: 20px; }
       @media (min-width: 768px) {
-        /* line 243, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 238, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .leftquote {
           top: 15px;
           left: 5px; } }
-    /* line 254, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 248, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goal-quote-wrapper .rightquote {
       bottom: 0;
       right: 30px; }
       @media (min-width: 992px) {
-        /* line 254, resources/assets/styles/layouts/_pages_goals.scss */
+        /* line 248, resources/assets/styles/layouts/_pages_goals.scss */
         #bootstrap_iso .goal-quote-wrapper .rightquote {
           right: 5px; } }
-  /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 258, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-text {
     color: #002145;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.2; }
     @media (min-width: 768px) {
-      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 258, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 32px; } }
     @media (min-width: 992px) {
-      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 258, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 20px; } }
     @media (min-width: 1200px) {
-      /* line 265, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 258, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-text {
         font-size: 32px; } }
-  /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 277, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goal-quote-author {
     font-size: 14px;
     color: #4c4d4f; }
     @media (min-width: 992px) {
-      /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 277, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-author {
         font-size: 12px; } }
     @media (min-width: 1200px) {
-      /* line 284, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 277, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goal-quote-author {
         font-size: 14px; } }
-  /* line 297, resources/assets/styles/layouts/_pages_goals.scss */
+  /* line 290, resources/assets/styles/layouts/_pages_goals.scss */
   #bootstrap_iso .goals-prevnext {
     margin-top: 20px;
     font-size: 20px; }
-    /* line 301, resources/assets/styles/layouts/_pages_goals.scss */
+    /* line 294, resources/assets/styles/layouts/_pages_goals.scss */
     #bootstrap_iso .goals-prevnext a {
       color: #4c4d4f;
       text-decoration: none;
       text-transform: uppercase; }
     @media (min-width: 992px) {
-      /* line 297, resources/assets/styles/layouts/_pages_goals.scss */
+      /* line 290, resources/assets/styles/layouts/_pages_goals.scss */
       #bootstrap_iso .goals-prevnext {
         margin-top: 50px;
         font-size: 30px; } }
+  /* line 306, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-card {
+    border-radius: 45px;
+    display: block;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+    margin-bottom: 1em;
+    width: 100%; }
+  /* line 316, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-card-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  /* line 324, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-card-background {
+    background: #002145;
+    background-size: cover; }
+  /* line 329, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-card-overlay {
+    background: #002145;
+    mix-blend-mode: hard-light;
+    transition: opacity 300ms; }
+  /* line 335, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-card-details {
+    color: white;
+    display: flex;
+    font-size: 32px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 300ms; }
+  /* line 345, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-number-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 300ms; }
+  /* line 352, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-number-large p {
+    background-color: #dacab5;
+    border-radius: 100%;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px -2px black;
+    color: #481700 !important;
+    font-size: 60px !important;
+    padding: 0 26px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+  @media (min-width: 1140px) {
+    /* line 368, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card-details {
+      opacity: 0; }
+    /* line 372, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card:hover .goal-card-details,
+    #bootstrap_iso .goal-card:focus .goal-card-details {
+      opacity: 1; }
+    /* line 377, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card:hover .goal-card-overlay,
+    #bootstrap_iso .goal-card:focus .goal-card.details {
+      mix-blend-mode: normal; }
+    /* line 382, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card:hover .goal-number-large,
+    #bootstrap_iso .goal-card:focus .goal-number-large {
+      opacity: 0; } }
+  /* line 388, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-number {
+    border-radius: 100%;
+    border: 2px solid white;
+    padding: 12px 14px; }
+  /* line 394, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  /* line 401, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-text p {
+    color: white !important;
+    text-align: center; }
+  /* line 406, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-header {
+    font-size: 18px !important;
+    margin-bottom: 0 !important; }
+  /* line 411, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goal-intro-text {
+    font-size: 16px !important; }
+  @media (max-width: 1140px) {
+    /* line 416, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-number {
+      font-size: 40px !important;
+      font-weight: bold;
+      padding: 18px 20px;
+      border: 4px solid white; }
+    /* line 423, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-header {
+      font-size: 30px !important; }
+    /* line 427, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-intro-text {
+      font-size: 24px !important; } }
+  @media (max-width: 992px) {
+    /* line 433, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-number {
+      font-size: 25px !important;
+      font-weight: bold;
+      padding: 12px 16px;
+      border: 4px solid white;
+      margin-bottom: 8px; }
+    /* line 441, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-header {
+      font-size: 20px !important; }
+    /* line 445, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-intro-text {
+      font-size: 18px !important; } }
+  @media (max-width: 768px) {
+    /* line 451, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-number {
+      font-size: 40px !important;
+      font-weight: bold;
+      padding: 18px 20px;
+      border: 4px solid white;
+      margin-top: 8px; }
+    /* line 459, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-header {
+      font-size: 34px !important; }
+    /* line 463, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-intro-text {
+      font-size: 28px !important; } }
+  @media (max-width: 576px) {
+    /* line 469, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card {
+      padding-top: 0; }
+    /* line 473, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-card-details {
+      position: relative; }
+    /* line 477, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-text {
+      justify-content: center; }
+    /* line 481, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-number {
+      font-size: 40px !important;
+      font-weight: bold;
+      padding: 18px 20px;
+      border: 4px solid white;
+      margin-top: 8px; }
+    /* line 489, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-header {
+      font-size: 25px !important;
+      margin-bottom: 12px !important; }
+    /* line 494, resources/assets/styles/layouts/_pages_goals.scss */
+    #bootstrap_iso .goal-intro-text {
+      font-size: 20px !important; } }
+  /* line 499, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .goals-sub-header {
+    color: #4c4d4f !important; }
+  /* line 503, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .strategic-plan {
+    display: block;
+    font-weight: bold;
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+    font-size: 40px;
+    text-decoration: underline;
+    line-height: 1em; }
+  /* line 513, resources/assets/styles/layouts/_pages_goals.scss */
+  #bootstrap_iso .strategic-plan:hover,
+  #bootstrap_iso .strategic-plan:focus {
+    text-decoration: none; }
   /* line 3, resources/assets/styles/layouts/_tinymce.scss */
   #bootstrap_iso body#tinymce {
     margin: 12px !important; }
@@ -13895,7 +14080,7 @@
 .page-template-template-foundations .pre-footer::before,
 .page-template-template-the-engagement-process .pre-footer::before,
 .page-template-template-guiding-network .pre-footer::before {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkyMCAwTDE5MjAgMTcuOTk5OUMxODI2LjEyIDguNDk5OTUgMTQ5Mi4wOCAtNC44MDAwNSA5MDYuOTcyIDE3Ljk5OTlDMzIxLjg2OCA0MC43OTk5IDU4LjUzMDUgMTIwLjE2NyAwIDE1N1YwSDE5MjBaIiBmaWxsPSIjRjBFOURFIi8+DQo8L3N2Zz4NCg==) !important; }
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNTciIHZpZXdCb3g9IjAgMCAxOTIwIDE1NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOTIwIDBMMTkyMCAxNy45OTk5QzE4MjYuMTIgOC40OTk5NSAxNDkyLjA4IC00LjgwMDA1IDkwNi45NzIgMTcuOTk5OUMzMjEuODY4IDQwLjc5OTkgNTguNTMwNSAxMjAuMTY3IDAgMTU3VjBIMTkyMFoiIGZpbGw9IiNGMEU5REUiLz4KPC9zdmc+Cg==) !important; }
 
 /* line 112, stdin */
 .single-post .full-width-container {

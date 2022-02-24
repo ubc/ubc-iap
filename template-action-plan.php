@@ -5,25 +5,6 @@
 get_header(); // Loads the header.php template.
 ?>
 
-<style>
-  .goals-sub-header {
-    color: #4C4D4F!important;
-  } 
-
-  .strategic-plan {
-    display: block;
-    margin-top: 32px!important;
-    margin-bottom: 32px!important;
-    font-size: 40px; 
-    text-decoration: none!important;
-    line-height: 1em;
-  }
-
-  .strategic-plan:hover, .strategic-plan:focus {
-    text-decoration: underline!important;
-  }
-</style>
-
 <div id="bootstrap_iso">
   <?php
   echo get_template_part('partials/section', 'landing-reduced', [
@@ -58,15 +39,15 @@ get_header(); // Loads the header.php template.
 
     </div>
     
-    <?php $strategicPlanLink = wp_get_attachment_url(carbon_get_the_post_meta('crb_goals_strategic_plan')) ?>
+    <?php $file = wp_get_attachment_url(carbon_get_the_post_meta('crb_goals_strategic_plan')) ?>
+    <?php $label = wp_kses_post(carbon_get_the_post_meta('crb_goals_strategic_plan_label')) ?>
 
   </section>
 
   <?php echo get_template_part('partials/section-goals') ?>
 
   <div class='container'>
-
-    <a class="strategic-plan" href="<?php echo $strategicPlanLink ?>">Download the Indigenous Strategic Plan</a>
+    <a class="strategic-plan" href="<?php echo $file ?>" download><?php echo $label ?></a>
   </div>
 
   <?php echo get_template_part('partials/pre-footer') ?>
