@@ -166,6 +166,7 @@ function crb_attach_theme_options()
                 Field::make('text', 'crb_goals_heading'),
                 Field::make('text', 'crb_goals_sub_heading'),
                 Field::make('image', 'crb_goals_header_image'),
+                Field::make('text', 'crb_goals_strategic_plan_label')->set_default_value('Download the Indigenous Strategic Plan'),
                 Field::make('file', 'crb_goals_strategic_plan'),
             )
         );
