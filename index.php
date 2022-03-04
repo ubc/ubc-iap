@@ -13,6 +13,7 @@ get_header(); // Loads the header.php template.?>
   <section class="bg-white">
     <div class="container py-5">
       <?php echo get_template_part('partials/breadcrumbs') ?>
+      <?php echo apply_filters( 'the_content', get_post_field( 'post_content', get_option('page_for_posts'))); ?>
       <?php while(have_posts()): the_post(); ?>
         <?php $author_name = ( function_exists( 'coauthors' ) ) ? coauthors( null, null, null, null, false ) : get_the_author_meta( 'display_name' ); ?>
         <div class="row mb-5">
