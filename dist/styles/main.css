@@ -13528,7 +13528,11 @@
         left: 0;
         transform: rotateZ(-90deg) translate(-50%);
         transform-origin: top left; } }
-  /* line 1548, resources/assets/styles/common/_global.scss */
+    /* line 1546, resources/assets/styles/common/_global.scss */
+    #bootstrap_iso .vertical.top {
+      top: 0;
+      transform: rotateZ(-90deg) translate(calc(-100% - 50px)); }
+  /* line 1553, resources/assets/styles/common/_global.scss */
   #bootstrap_iso figure.aligncenter img {
     display: block;
     margin-left: auto;
