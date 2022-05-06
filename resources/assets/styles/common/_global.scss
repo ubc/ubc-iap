@@ -1532,6 +1532,11 @@ ol {
     transform: rotateZ(-90deg) translate(-50%);
     transform-origin: top left;
   }
+
+  &.top {
+    top: 0;
+    transform: rotateZ(-90deg) translate(calc(-100% - 50px));
+  }
 }
 
 figure.aligncenter {

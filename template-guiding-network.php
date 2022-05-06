@@ -14,14 +14,16 @@ get_header(); // Loads the header.php template.
   ])
   ?>
   <section class="bg-beige">
+    <div class="container position-relative pt-md-5 text-burnt">
+      <?php echo get_template_part('partials/breadcrumbs') ?>
+      <?php the_content(); ?>
+    </div>
+  </section>
+  <section class="bg-beige">
     <div class="clip-ellipse">
       <div class="text-white">
-        <div class="container position-relative pt-md-5 pt-lg-8 text-burnt">
-          <?php echo get_template_part('partials/breadcrumbs') ?>
-          <div>
-            <?php the_content(); ?>
-          </div>
-          <span class="vertical"><h3 class="mb-0 text-whitney text-uppercase text-burnt"><?php echo esc_html(carbon_get_the_post_meta('crb_vertical_text_1')) ?></h3></span>
+        <div class="container position-relative text-burnt">
+          <span class="vertical top"><h3 class="mb-0 text-whitney text-uppercase text-burnt"><?php echo esc_html(carbon_get_the_post_meta('crb_vertical_text_1')) ?></h3></span>
           <div class="row mt-5">
             <div class="col-md-5 pl-md-5 pl-lg-6 pl-xl-7 mb-3">
               <figure class="img-rounded--text blue text-white">
