@@ -13,8 +13,9 @@ get_header(); // Loads the header.php template.?>
   <section class="bg-white">
     <div class="container py-5">
       <?php echo get_template_part('partials/breadcrumbs') ?>
+      <?php echo apply_filters( 'the_content', get_post_field( 'post_content', get_option('page_for_posts'))); ?>
       <?php while(have_posts()): the_post(); ?>
-        <?php $author_name = ( function_exists( 'coauthors' ) ) ? coauthors() : get_the_author_meta( 'display_name' ); ?>
+        <?php $author_name = ( function_exists( 'coauthors' ) ) ? coauthors( null, null, null, null, false ) : get_the_author_meta( 'display_name' ); ?>
         <div class="row mb-5">
           <div class="col-md-4">
             <a href="<?php the_permalink() ?>"><img class="img-fluid mb-3 w-100" src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_post_meta(get_post_thumbnail_id($post->ID), '_wp_attachment_image_alt', true) ?>" loading="lazy"/></a>
