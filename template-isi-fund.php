@@ -29,7 +29,7 @@ get_header(); // Loads the header.php template.
         </div>
       <?php endif ?>
 
-      <?php if(carbon_get_the_post_meta('crb_content_2')) :?>
+      <?php if(carbon_get_the_post_meta('crb_content_3')) :?>
         <?php echo wpautop(wp_kses_post(carbon_get_the_post_meta('crb_content_3'))) ?>
       <?php endif ?>
     </div>
