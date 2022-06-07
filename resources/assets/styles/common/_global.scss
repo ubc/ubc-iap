@@ -581,17 +581,17 @@ ol {
   > :last-child {
     margin-bottom: 0;
   }
-}
 
-.column-beige {
-  background: $beige;
-}
+  &.column-beige {
+    background: $beige;
+  }
 
-.column-blue {
-  background: $blue;
+  &.column-blue {
+    background: $blue;
 
-  > * {
-    color: white;
+    > * {
+      color: white;
+    }
   }
 }
 
@@ -738,14 +738,14 @@ ol {
   background: $beige;
   margin-bottom: 3rem;
   padding: 3rem;
-}
 
-.inner-content > *:last-child {
-  margin-bottom: 0;
-}
+  > :last-child {
+    margin-bottom: 0;
+  }
 
-.inner-content .btn {
-  margin-top: 1.5rem;
+  .btn {
+    margin-top: 1.5rem;
+  }
 }
 
 .graph-section {

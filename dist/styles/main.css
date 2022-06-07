@@ -12736,14 +12736,14 @@
   /* line 581, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .column > :last-child {
     margin-bottom: 0; }
-  /* line 586, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso .column-beige {
+  /* line 585, resources/assets/styles/common/_global.scss */
+  #bootstrap_iso .column.column-beige {
     background: #f0e9de; }
-  /* line 590, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso .column-blue {
+  /* line 589, resources/assets/styles/common/_global.scss */
+  #bootstrap_iso .column.column-blue {
     background: #002145; }
-    /* line 593, resources/assets/styles/common/_global.scss */
-    #bootstrap_iso .column-blue > * {
+    /* line 592, resources/assets/styles/common/_global.scss */
+    #bootstrap_iso .column.column-blue > * {
       color: white; }
   @media (min-width: 768px) {
     /* line 598, resources/assets/styles/common/_global.scss */
@@ -12875,12 +12875,12 @@
     background: #f0e9de;
     margin-bottom: 3rem;
     padding: 3rem; }
-  /* line 743, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso .inner-content > *:last-child {
-    margin-bottom: 0; }
-  /* line 747, resources/assets/styles/common/_global.scss */
-  #bootstrap_iso .inner-content .btn, #bootstrap_iso .inner-content .comment-form input[type="submit"], #bootstrap_iso .comment-form .inner-content input[type="submit"], #bootstrap_iso .inner-content .search-form .search-submit, #bootstrap_iso .search-form .inner-content .search-submit {
-    margin-top: 1.5rem; }
+    /* line 742, resources/assets/styles/common/_global.scss */
+    #bootstrap_iso .inner-content > :last-child {
+      margin-bottom: 0; }
+    /* line 746, resources/assets/styles/common/_global.scss */
+    #bootstrap_iso .inner-content .btn, #bootstrap_iso .inner-content .comment-form input[type="submit"], #bootstrap_iso .comment-form .inner-content input[type="submit"], #bootstrap_iso .inner-content .search-form .search-submit, #bootstrap_iso .search-form .inner-content .search-submit {
+      margin-top: 1.5rem; }
   /* line 751, resources/assets/styles/common/_global.scss */
   #bootstrap_iso .graph-section {
     position: relative; }
