@@ -275,6 +275,59 @@ function crb_attach_theme_options()
             )
         );
 
+    // ISI Fund
+    CarbonContainer::make('post_meta', 'Section 1 - Text Highlight')
+        ->where('post_template', '=', 'template-isi-fund.php')
+        ->add_fields(
+            array(
+                Field::make('rich_text', 'crb_content_1'),
+            )
+        );
+
+
+    CarbonContainer::make('post_meta', 'Section 2 - Text Highlight')
+        ->where('post_template', '=', 'template-isi-fund.php')
+        ->add_fields(
+            array(
+                Field::make('rich_text', 'crb_content_2'),
+            )
+        );
+
+    CarbonContainer::make('post_meta', 'Section 3 - Text')
+        ->where('post_template', '=', 'template-isi-fund.php')
+        ->add_fields(
+            array(
+                Field::make('rich_text', 'crb_content_3'),
+            )
+        );
+
+    CarbonContainer::make('post_meta', 'Section 4 - Button Cards')
+        ->where('post_template', '=', 'template-isi-fund.php')
+        ->add_fields(
+            array(
+                Field::make( 'complex', 'crb_cards')
+                    ->add_fields(
+                        array(
+                            Field::make('text', 'link')->set_width(50),
+                            Field::make('text', 'label')->set_width(50),
+                        )
+                    )
+            )
+        );
+
+    CarbonContainer::make('post_meta', 'Section 5 - Columns')
+        ->where('post_template', '=', 'template-isi-fund.php')
+        ->add_fields(
+            array(
+                Field::make( 'complex', 'crb_columns')
+                    ->add_fields(
+                        array(
+                            Field::make('rich_text', 'content'),
+                        )
+                    )
+            )
+        );
+
     // President's Message
     CarbonContainer::make('post_meta', 'Circular Image')
         ->where('post_template', '=', 'template-presidents-message.php')

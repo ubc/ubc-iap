@@ -567,42 +567,32 @@ ol {
       margin-top: calc(-13vw + 2px);
     }
   }
-  // clip-path: ellipse(320vw 49% at 50% 50%);
-  // transform: rotateZ(-4deg);
+}
 
-  // @include media-breakpoint-up(md) {
-  //   clip-path: ellipse(250vw 49% at 50% 50%);
-  // }
+.column {
+  > h4 {
+    margin-bottom: 15px;
+  }
 
-  // @include media-breakpoint-up(lg) {
-  //   clip-path: ellipse(215vw 49% at 50% 50%);
-  // }
+  > p {
+    font-size: 20px !important;
+  }
 
-  // @include media-breakpoint-up(xl) {
-  //   clip-path: ellipse(195vw 49% at 50% 50%);
-  // }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
 
-  // @include media-breakpoint-up(xxl) {
-  //   clip-path: ellipse(160vw 49% at 50% 50%);
-  // }
+.column-beige {
+  background: $beige;
+}
 
-  // > div {
-  //   // position: relative;
-  //   // transform: rotateZ(4deg);
+.column-blue {
+  background: $blue;
 
-  //   &::before {
-  //     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 7, 14, 1) 100%);
-  //     content: "";
-  //     display: block;
-  //     opacity: 0.7;
-  //     mix-blend-mode: multiply;
-  //     position: absolute;
-  //     top: 0;
-  //     right: 0;
-  //     bottom: 0;
-  //     left: 0;
-  //   }
-  // }
+  > * {
+    color: white;
+  }
 }
 
 .columns-2 {
@@ -742,6 +732,20 @@ ol {
     padding-left: 45px;
     width: 300px;
   }
+}
+
+.inner-content {
+  background: $beige;
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+
+.inner-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.inner-content .btn {
+  margin-top: 1.5rem;
 }
 
 .graph-section {
