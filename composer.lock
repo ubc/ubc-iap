@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ea52a48ddb95439654b5f71b3a2422f",
+    "content-hash": "48ceb3b6ad2a918bc1fd76bc92216932",
     "packages": [
         {
             "name": "htmlburger/carbon-fields",
-            "version": "v3.5.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/htmlburger/carbon-fields.git",
-                "reference": "3cef3de167181870ccf675b0a5fd82d9ba32072f"
+                "reference": "47f1538cca6cd2860d1b37a040a42c59eb798d76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/3cef3de167181870ccf675b0a5fd82d9ba32072f",
-                "reference": "3cef3de167181870ccf675b0a5fd82d9ba32072f",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/47f1538cca6cd2860d1b37a040a42c59eb798d76",
+                "reference": "47f1538cca6cd2860d1b37a040a42c59eb798d76",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
                 "issues": "https://github.com/htmlburger/carbon-fields/issues",
                 "source": "https://github.com/htmlburger/carbon-fields"
             },
-            "time": "2023-02-22T08:48:27+00:00"
+            "time": "2023-04-04T08:41:31+00:00"
         }
     ],
     "packages-dev": [],
@@ -155,5 +155,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
