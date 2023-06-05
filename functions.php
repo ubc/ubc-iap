@@ -396,22 +396,22 @@ add_action('carbon_fields_register_fields', 'crb_attach_theme_options');
 add_action('after_setup_theme', 'ubc_iap_load');
 
 add_action(
-    'wp_enqueue_scripts', 
+    'wp_enqueue_scripts',
     function () {
         wp_enqueue_style('sage/main.css', get_stylesheet_directory_uri().('/dist/styles/main.css'), false, IAP_THEME_VERSION);
         wp_enqueue_script('sage/main.js', get_stylesheet_directory_uri().('/dist/scripts/main.js'), ['jquery'], IAP_THEME_VERSION, true);
-    }, 
+    },
     100
 );
 
 /**
  * Change excerpt length (the_excerpt filter doesn't seem to apply)
- * 
+ *
  * @author Tim Lu <tim.lu@meetgoat.com>
  *
  * @since 1.0
- * 
- * @return void
+ *
+ * @return mixed
  */
 
 function excerpt($limit) {
